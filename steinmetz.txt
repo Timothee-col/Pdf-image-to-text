@@ -1,0 +1,5592 @@
+
+===== PAGE 1 =====
+Presented
+at
+the
+7th
+Midwinter
+Convention of
+the American
+Institute of Electrical Engineers
+New York, February 20, 1919.
+Copyright 1919.
+By A. I. E. E.
+THE GENERAL EQUATIONS OF THE ELECTRIC
+CIRCUIT-III
+Variation of Constants r, L, C, and g, and its Effects
+BY CHARLES P. STEINMETZ
+ABSTRACT OF PAPER
+In the usual theory of transients the assumption is made, that
+resistance, inductance, capacity and conductance are constant.
+This however, is not correct, and as the result thereof, it was
+not possible to theoretically investigate, and numerically cal-
+culate the dissipation of high-frequency disturbances, the flat-
+tening of the wave fronts of impulses, the rounding off of steep
+waves, etc., with the time and the distance of travel, and there-
+from to determine the distance, to which the danger from such
+disturbances extends, and to investigate the conditions of line
+construction, which limit the danger zone of such phenomena to
+the smallest local extent.
+In the following, two of the foremost causes of change of the
+line constants with the equivalent frequency are investigated,
+the unequal current distribution in the conductor, and the electric
+radiation from the conductor, and shown, that within the range
+of frequencies which may be met in industrial circuits, the effec-
+tive resistance of the conductor, and its attenuation
+constant,
+may increase more than a million fold.
+Equations of the line constants as function of the equivalent
+frequency are derived, and applications thereof made to a few
+problems:
+(1) The laws of conduction of high-frequency currents, such
+as produced by lightning discharges and similar disturbances,
+and the conclusions resulting therefrom on the nature of the con-
+ductor.
+(2) The decay of high-frequency sine waves in transmission
+lines.
+(3) The attenuation of rectangular waves.
+(4) The flattening of the wave front of steep impulses.
+It is shown that in high-frequency conduction the section of
+the conductor is of little importance, but the circumference is
+the determining factor, except at very high frequencies, where
+size, shape, and material-within certain limits-becomes of
+secondary importance.
+The inductance and the capacity of
+the conductor remain constant up to very high frequencies, but
+the effective resistance may increase many thousand fold.
+At
+high frequencies, not all the energy consumed by the effective
+resistance of the conductor is converted into heat, but the major
+part may be radiated into space and thereby affect other circuits.
+The conditions, which cause a flattening of steep wave fronts
+and impulses, and a rounding of irregular waves, are investigated,
+and it is shown, that within the range of distances in which
+191
+
+===== PAGE 2 =====
+192
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+danger may result from a steep wave front or high frequency, the
+steepness of the wave front decreases with the square root of
+the distance traveled by the wave;
+that size and material of
+the conductor have little influence, but the
+distance between
+conductor and return conductor is the main factor in flattening
+the wave front and thereby limiting the danger zone.
+For convenience, the theoretical part has been separated and
+placed in an appendix, giving in the text the discussion, with
+numerous tables derived from the theoretical equations, and
+curves illustrating these tables.
+The investigation is not general, but rather limited to special
+applications, as the field is too new to permit fargoing general-
+ization.
+I.-General
+N 1908, in a paper under the above title, the general equations
+of the electric circuit were presented and discussed, and in
+a second paper in 1916, under the title "Outline of a Theory
+of Impulse Currents," the application of these general equations
+to
+the
+special cases of direct-current circuits, alternating-
+current circuits, etc., was discussed, and more particularly a
+theory of impulse currents outlined, that is, transient currents
+which are non-periodic in time, and either non-periodic or
+periodic in space.
+In both of these papers however, and in all general theoretical
+investigations on these subjects, as far as I know, the assump-
+tion is made, that the circuit constants; resistance r, inductance
+L, capacity C and shunted conductance g, are constant.
+While
+this is true, with sufficient approximation, for the usual machine
+frequencies and for moderately high frequencies, experience
+shows that it is not even approximately true
+for very high
+frequencies and for very sudden circuit changes, as steep wave
+front impulses, etc.
+If r, L, C and g are assumed as constant, it follows that the
+attenuation is independent of the frequency, that is, waves of
+all frequencies decay at the same rate, and as the result, a
+complex wave or an impulse traversing a circuit dies out with-
+out changing its wave shape or the steepness of its wave front.
+Experience, however, has conclusively shown that steep
+wave fronts are dangerous only near their origin, and rapidly
+lose their destructiveness by the flattening of the wave front
+when running along the circuit.
+Experimentally, small
+in-
+ductances shunted by a spark gap, inserted in transmission
+lines for testing for high frequencies or steep wave fronts, have
+shown appreciable spark lengths, that is, high-voltage gradients,
+only near the origin of the disturbance, but no appreciable
+
+===== PAGE 3 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+193
+spark length beyond a few miles from the origin of the distur-
+bance.
+The rectangular wave of starting a transmission line by
+connecting it to a source of voltage, which is given by the theory
+under the assumption of constant r, L, C and g, and thus shown
+in most text books, has never been shown in any of the oscil-
+lograms of transmission lines, as far as I know.
+If r and L are constant, the power factor of the line con-
+r
+ductor,
++ (2,fL) should
+with
+increasing
+frequency
+continuously decrease, and reach extremely low values, at
+very high frequencies, so that at these, an oscillatory dis-
+turbance should be sustained over very many cycles, and show
+with increasing frequency an increasing liability to become a
+sustained or cumulative oscillation. Experience, however, shows
+that high-frequency oscillations die out much more rapidly
+than accounted for by the standard theory, and show at very
+high frequency practically no tendency to become cumulative.
+This does not mean that the present theory of transients,
+which is based on the assumption of constant r, L, C and g,
+is useless by not correctly representing the actual phenomena,
+but it means that it correctly represents the transient only in
+its initial stage and near its origin, but does not satisfactorily
+represent its course after its initial stage and at some distance
+from the origin, at least not for high-frequency transients or
+steep wave fronts.
+As the destructive effect of voltage does not depend only on
+the value of the voltage, but also on the duration of its appli-
+cation, this is a limitation, though not as serious as it may
+appear, since it tends to understate the danger of high-fre-
+quency transients.
+However, it makes it impossible to determine such important
+questions as; how far the danger zone of a high-frequency
+disturbance or steep wave front extends; how the destructive-
+ness decreases with the distance; how it depends on line con-
+struction, conductor shape and materials, etc., and to approach
+the problem of so designing the circuit as to limit the danger
+from any such disturbance to the smallest local extent.
+In the following, therefore, the attempt
+is made to in-
+vestigate and calculate theoretically some of the factors, which
+cause a change of the line constants r, L, C, and g, with increas-
+ing frequency or steepness of wave front, and to investigate
+
+===== PAGE 4 =====
+194
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+theoretically the effect produced on the course of the transient
+with regard to duration and wave shape, by the variation of the
+line constants.
+As this field is rather new, no very general treatment is yet
+possible, but rather, an outline of the problem, and applica-
+tions to some of the most important phenomena, such as the
+conduction of high-frequency currents, the changes of wave
+shape with time and distance of wave travel, and the flattening
+of the wave front, and its bearing on circuit construction.
+The two most important factors in the variation of the circuit
+constants r, L, C, and g, seem to be the unequal current dis-
+tribution in the conductor and the finite velocity of the electric
+field.
+UNEQUAL CURRENT DISTRIBUTION IN THE CONDUCTOR
+The magnetic field of the current surrounds this current
+and fills all the space outside thereof, up to the return current.
+Some of the magnetic field due to the current in the interior
+and in the center of a conductor carrying current, thus is
+inside of the conductor, while all the magnetic field of the
+current in the outer layer of the conductor is outside of it.
+Therefore, more magnetic field surrounds the current in the
+interior of the conductor than the current in its outer layer,
+and the inductance therefore increases from the outer layer of
+the conductor towards its interior, by the "internal magnetic
+field."
+In the interior of the conductor the reactance voltage
+thus is higher than on the outside.
+At low frequency, with moderate size of conductor, this
+difference is inappreciable in its effect.
+At higher frequencies
+however, the higher reactance in the interior of the conductor,
+due to this internal magnetic field, causes the current density
+to decrease towards the interior of the conductor, and the cur-
+rent to lag, until finally the current flows practically only
+through a thin layer of the conductor surface.
+As the result thereof, the effective resistance of the conductor
+is increased, due to the uneconomical use of the conductor
+material caused by the lower current density in the interior,
+and due to the phase displacement, which results in the sum of
+the currents in the successive layers of the conductor being
+larger than the resultant current.
+Due to this unequal cur-
+rent distribution, the internal reactance of the conductor is
+decreased, as less current penetrates to the interior of the con-
+
+===== PAGE 5 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+195
+ductor, and thus produces less magnetic field inside of the
+conductor.
+The derivation of the equations of the effective resistance
+of unequal current distribution in the conductor, r1, and of the
+internal reactance xl under these conditions, is given in appen-
+dix A.
+It is interesting to note, that effective resistance and
+internal reactance, with increasing frequency, approach the
+same limit, and become proportional to the square root of the
+frequency, the square root of the permeability, and the square
+root of the resistivity of the conductor material, while at low
+frequencies the resistance is independent of the frequency and
+directly proportional to the resistivity, and the internal re-
+actance is independent of the resistivity and directly propor-
+tional to the frequency.
+FINITE VELOCITY OF THE ELECTRIC FIELD
+In calculating the inductance or the capacity of a con-
+ductor, usually the assumption is made, that the electric field
+is instantaneous, that is, the magnetic field appears and dis-
+appears simultaneously with the current, and therefore, is in
+phase with
+the current, and the dielectric field appears and
+disappears simultaneously with the voltage.
+In reality, how-
+ever, this is not strictly correct, but the electric field moves
+with a finite velocity from the conductor outwards.
+While
+this velocity is inconceivably high: S = 3 X 101° cm. per sec.,
+or 300,000 km. per sec., its effect is appreciable at high fre-
+quencies.
+Consider, for instance, a circuit representing average
+transmission
+line conditions with 6 ft. = 182 cm., between
+conductors, traversed by a current of f = 106, or one million
+cycles, such as maybe produced by a nearbylightning discharge.
+The wave length of this current and thus of its magnetic field
+S
+3
+_
+01
+then would be
+S
+X 10
+30,000 cm. and the distance
+f
+0
+of 182 cm. between the line conductors would be
+182
+or
+30,000
+1
+360
+165 of a wave length or 1365 = 2.2 deg.
+That is, the mag-
+netic field of the current, when it reaches the return conductor,
+would not be in phase with the current, but
+I
+of a wave
+165
+
+===== PAGE 6 =====
+196
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+length or 2.2 deg. behind the current.
+The voltage induced
+by the magnetic field would not be in quadrature with the
+current, or wattless, but lag 90 + 2.2 = 92.2 deg. behind the
+current, thus have an energy component equal to cos 92.2
+deg. = 3.8 per cent, giving rise to an effective resistance r3,
+equal to 3.8 per cent of the reactance x.
+Even if at normal
+frequencies of 60 cycles the reactance is equal only to the
+ohmic resistance ro - usually it is larger-the reactance x to
+106 cycles would be 106
+= 16,700 times the ohmic resistance,
+and the effective resistance of magnetic radiation,
+r3, being
+3.8 per cent of this reactance, thus would be 630 times the
+ohmic resistance:
+r3 = 630 ro.
+Thus, the ohmic resistance
+would be entirely negligible compared with the effective re-
+sistance resulting from the finite velocity of the magnetic field.
+Considering however, a high-frequency oscillation of
+106
+cycles, not between the line conductors, but
+between line
+conductor and ground, and assume, under average transmission
+line conditions, 30 ft. as the average height of the conductor
+above ground.
+The magnetic field of the conductor then can
+be represented as that between the conductor and its image
+conductor, 30 ft. below ground, and the distance between con-
+ductor and return conductor would be 2 X 30 ft. = 1820 cm.
+The lag of the magnetic field, due to the finite velocity of propa-
+gation, then becomes 22 deg. thus quite appreciable, and the
+energy component of the voltage induced by the magnetic field
+is cos (90 + 220) = 37 per cent.
+This would give rise to an
+effective or radiation resistance r3 = 0.37 x.
+As in this case,
+the 60-cycle reactance usually is much larger than the ohmic
+resistance, assuming it as twice would make the radiation
+resistance r3 = 12,600 ro, or more than ten thousand times
+the true ohmic resistance.
+It is true, that at these high fre-
+quencies, the ohmic resistance would be very greatly increased
+by unequal current distribution in the conductor.
+But the
+effective resistance of unequal current distribution increases
+only proportionally to the square root of the frequency, and,
+assuming for instance conductor No. 00 B. & S. gage, the effec-
+tive resistance of unequal current distribution, r1, would at 106
+cycles be about 36 times the low-frequency ohmic resistance
+ro.
+Thus the effective resistance of magnetic radiation would
+still be
+12,600_ = 350 times the effective resistance of unequal
+36
+
+===== PAGE 7 =====
+1919]
+QF THE ELECTRIC CIRCUIT
+197
+current
+distribution:
+r3 = 350 r1, and the latter, therefore,
+is negligible compared with the former.
+It is interesting to note, that the effective resistance of
+radiation, r3, does not represent energy dissipation in the con-
+ductor by conversion into heat, but energy dissipation by
+radiation into space, and in distinction from the "radiation
+resistance," which dissipates energy into space, the effective
+resistance of unequal current distribution may be called a
+"thermal resistance," as it converts electric energy into heat
+Thus in this instance of a 106-cycle high-frequency discharge
+between transmission line conductor and ground, the heating
+of the conductor would be increased 36 fold over that produced
+by a low-frequency current of the same amperage, by
+the
+increase of resistance by unequal current distribution in the
+conductor; but the total energy dissipation by the conductor
+would be increased by magnetic radiation still 350 times more,
+so that the total energy dissipation by the 106-cycle current
+would be 12,600 times greater than it would be with a low-fre-
+quency current of the same value, and the attenuation or rate
+of decay of the current thus would be increased many thousand
+times, over that calculated on the assumption of constant
+resistance at all frequencies.
+The derivation of the equations of the effective resistance
+of magnetic radiation, and in general of the effects of the
+finite velocity of the electric field on the line constants, are
+given in appendix B.
+The magnetic radiation resistance is proportional to the
+square of the frequency (except at extremely high frequencies).
+It therefore, is negligible at low and medium frequencies, but
+becomes the dominating factor at high frequencies.
+It
+is
+proportional to the distance of the return conductor, but en-
+tirely independent of size, shape, or material of the conductor,
+as is to be expected, since it represents the energy dissipated
+into space.
+Only at extremely high frequencies, the rise of
+radiation resistance becomes less than proportional to the
+square of the frequency.
+It becomes practically independent
+of the distance of the return conductor, when the latter becomes
+of the magnitude of the quarter wave length.
+The same applies to the capacity.
+Due to the finite velocity
+of propagation, the dielectric or electrostatic field lags behind
+the voltage which produces it, by the same angle by which the
+magnetic field lags behind the current, and the capacity current
+
+===== PAGE 8 =====
+198
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+or charging current thus is not in quadrature with the voltage,
+or reactive, but displaced in phase by more than 90 deg. thus
+contains a negative energy component, which gives rise to a
+shunted conductance of dielectric radiation g.
+This gives rise
+to an energy dissipation by the conductor, at high frequencies,
+by dielectric radiation into space, of the same magnitude as
+the energy dissipation by magnetic radiation, above considered.
+The term "shunted conductance" g has been introduced
+into the general equations of the electric circuit largely from
+theoretical reasons, as representing the power consumption
+proportional to the voltage.
+Most theoretical investigations
+of transmission circuits consider only r, L and C as the circuit
+constants, and omit g, since under average transmission line
+conditions, at low and moderate frequencies, g usually is negli-
+gible.
+In communication circuits, as telegraph and telephone,
+there is a "leakage," which would be represented by a shunted
+conductance, and in underground cables there is a considerable
+energy consumption by dielectric losses in the insulation, as
+the investigations of the last years have shown, which gives a
+shunted
+conductance.
+In
+overhead power
+lines however,
+energy losses depending on the voltage,-and leading to a term
+g-have been known only at those high voltages where corona
+appears.
+It
+is interesting therefore to note, that at high
+frequencies, "shunted conductance" g may reach very formid-
+able values even in transmission lines, due to electrostatic
+radiation.
+In investigating the effect of the finite velocity of the electric
+field on the inductance L and the capacity C, in appendix B,
+it is seen, that the equations of external inductance and of
+capacity are not affected, but remain the same as the usual
+values derived by neglecting the velocity of the electric field,
+except at extremely high frequencies, when the distance of the
+return conductor approaches quarter wave length.
+EQUATIONS
+OF
+ELECTRICAL
+CONSTANTS,
+AND
+NUMERICAL
+VALUES
+In appendix C are given, compiled from appendices A and B,
+the equations of the components of the electrical constants, as
+functions of the frequency, for conductors with return con-
+ductor, and also for conductors without return conductor (as
+approximated by lightning strokes or wireless antennae):
+Resistance: true ohmic resistance or effective resistance of
+unequal current distribution, and magnetic radiation resistance.
+
+===== PAGE 9 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+199
+Reactance: low frequency internal reactance or internal re-
+actance of unequal currant distribution, and external reactance.
+Inductance: low frequency internal inductance or internal in-
+ductance of unequal current distribution, and external in-
+ductance.
+Shunted conductance and capacity are not so satisfactorily
+represented, and therefore,
+instead
+of representing energy
+storage and power dissipation depending on the voltage by a
+conductance g and a capacity C or susceptance b, in shunt
+with each other, it is more convenient to represent them by an
+effective resistance, the dielectric radiation resistance r,, and
+a capacity reactance xc, in series with each other.
+As seen from appendix C, four successive stages may be dis-
+tinguished in the expressions of the circuit constants as functions
+of the frequency.
+1. Low frequencies, such as the machine frequencies of 25
+and 60 cycles.
+The resistance is the true ohmic resistance,
+the internal reactance and inductance that corresponding to
+uniform current density throughout the conductor, with con-
+ductors of moderate size, and of non-magnetic material.
+2. Medium frequencies, of the magnitude of a thousand to
+ten thousand cycles.
+Resistance
+and internal reactance or
+inductance are those due to unequal current distribution in
+the conductor, that is, the resistance is rapidly increasing, and
+the internal inductance decreasing.
+The conductance g is
+still negligible, radiation effects still absent, and all the energy
+loss that of thermal resistance.
+3. High
+frequencies,
+of the magnitude
+of one hundred
+thousand to one million cycles.
+The radiation resistance is
+appreciable and becomes the dominating factor in the energy
+dissipation.
+The
+internal
+inductance
+has
+practically
+dis-
+appeared, due to the current penetrating only a thin surface
+layer.
+A considerable shunted conductance exists due to the
+dielectric radiation.
+4. Extremely high frequencies.
+Of the magnitude of many
+millions of cycles, when the quarter wave length has become
+of the same magnitude or less than the distance of the return
+conductor.
+Radiation
+effects
+entirely
+dominate,
+and
+the
+usual expressions of inductance and of capacity have ceased
+to apply.
+This last case is of little industrial importance, as such
+extremely high frequencies propagate only over short distances.
+
+===== PAGE 10 =====
+200
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+It would come into consideration only in calculating the flat-
+tening of the wave front of a rectangular impulse in the immedi-
+ate neighborhood of its origin, and similar problems.
+Thus far, a general investigation does not seem feasible.
+Substituting the equations of the circuit constants, as functions
+of the frequency, into the general equations of the electric
+circuit, leads to expressions too complex for general utility,
+and the investigation thus must largely be made by numerical
+calculations.
+Only when the frequencies which are of importance in the
+problem, lie fairly well in one of the four ranges above discussed
+-as is the case in the investigation of the flattening of a steep
+wave front in moderate distances from its origin,-a more
+general theoretical investigation becomes possible.
+As instances of industrial importance may be considered in
+the following:
+The conduction of high frequency currents such as produced
+by lightning and similar disturbances.
+The attenuation of waves in overhead transmission circuits.
+The rounding of rectangular waves.
+The flattening of steep wave fronts.
+II.-Lightning Conductors
+It has been known for many years that currents of high
+frequency, very sudden impulses, etc., such as are given by
+lightning discharges and similar disturbances in electric cir-
+cuits, do not follow the laws of low-frequency currents.
+The
+conduction of such currents however, is of very great industrial
+importance; in the discharge path of lightning arresters and
+other protective devices, their ground connections, their con-
+nections with the circuit, etc., it is of fundamental importance
+to design and select the conductor so as to offer minimum im-
+pedance to the discharge.
+Inversely, in the connection of the
+station to the transmission line, it is of importance to design
+the conductor for maximum impedance against such currents.
+The protection of buildings by the lightning rod depends on
+the design of the conductor system, etc.
+However, the high-frequency impedance of the conductor
+is not the only quantity of importance.
+At high frequencies,
+the thermal resistance, which dissipates energy in the conductor
+by conversion into heat, may be a small part only of the total
+effective resistance, and the radiation resistance dominates.
+
+===== PAGE 11 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+201
+That is, most of the power consumed in the conductor is radiated
+into space. Thus it is not sufficient to merely afford a discharge
+path for
+lightning, because while discharging through such
+path, most of the energy of the lightning may be communi-
+cated by radiation to other bodies.
+This accounts for the power
+exerted upon bodies near the path of a lightning stroke, the
+destructive effects of a "side stroke."
+Hence it is of importance
+also, to study the extent of the electric field of the high-fre-
+quency conductor, to ascertain that nothing is within the
+electric field, which might be damaged by intercepting the
+electric field, or may lead the power, communicated to it by
+the radiation from the discharge path, into other circuits where
+it may be destructive.
+Thus a lightning arrester, while func-
+tioning perfectly and supposedly giving perfect protection,
+may be a source of danger, by concentrating the energy of
+lightning into its discharge path,
+if this discharge path is
+carried in close inductive relation to conductors of the circuit
+which is to be protected.
+To show the relative magnitude of the different line constants
+and their components, in Table I are given their numerical
+values, in ohms per meter length of conductor, for frequencies
+from one cycle to one hundred million cycles per second, of a
+copper wire No. 00 B. & S. gage, for the three conditions:
+a. Return conductor at 1' = 6 ft. = 182 cm. corresponding
+to a discharge between transmission line conductors.
+b. With the ground as return conductor, at 30 ft. distance,
+that is, 1'= 2 X 30 ft. = 1820 cm. corresponding to a dis-
+charge between transmission line and ground.
+c. No return conductor, corresponding to the vertical dis-
+charge path of a lightning arrester ground, a lightning stroke,
+etc.
+Some of these values are plotted in Fig. 1.
+The low frequency values of resistance r0 and external and
+internal reactance xo + x1o, have no existence at the higher
+frequencies.
+But as they are the values calculated by the
+usual formulas, they are given in Table I, for comparison with
+the true effective high-frequency values.
+The values r2 and
+x2, though given for all frequencies, have a meaning only for
+the very high frequencies, since at lower frequencies the con-
+dition of a conductor without return conductor can hardly be
+realized, as any conductor within a quarter wave length would
+act as a more or less effective return conductor.
+
+===== PAGE 12 =====
+202
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+TABLE
+I.
+CIRCUIT CONSTANTS OF COPPER WIRE NO. 00 B. & S. GAGE PER METER LENGTH OF
+CONDUCTOR
+a.
+return conductor at 6 ft. = 182 cm. distance.
+b.
+return conductor at 2 X 30 ft. = 1820 cm. distance.
+c.
+no return conductor
+conductivity:
+Y = 6.2 X 106
+Cycles
+f
+1
+10
+102
+.10
+104
+105
+1
+107
+1
+irs
+.000240
+.000240 .000240 .000240 .000240
+.000240 .000240 .000240 .000240
+Xio -
+.0000003 .000003 .00003
+000,3
+.003
+.03
+.3
+3
+30
+0
+a.
+.0000075 .000075 .00075
+.0075
+.075
+.75
+7.5
+75
+750
+U
+b.
+.0000104 .000104 .00104
+.0104
+.1
+1.04
+10.4
+104
+1,040
+W
+a.
+J
+.000240
+.000252 .000816 .0078
+.078
+.78
+7.8
+78
+780
+o0
+b.
+z
+o.000240
+.000263 .001097 .0107
+.107
+1.07
+10.7
+107
+1,070
+a.
+J 1.000
+.952
+.293
+.0308
+.0031
+.00031
+.000031 .000003 .0000003
+b.
+o
+_
+t 1.000
+.912
+.218
+.0225
+.00224k
+.00022
+.000022 .000002 .0000002
+rs =
+.000240
+.000240 .000240 .000273 .000865
+.00273
+.00865
+.0273
+.0865
+XI =
+.0000003 .000003 .000030 .000273 .000865
+.00273
+.00865
+.0273
+.0865
+a. r.
+....
+.0000048 .00048
+.048
+4.8
+225
+b.
+'
+.000048
+.0048
+.48
+22.5
+194
+C.
+Y2 =
+.000002
+.000020 .000197 .00197
+.0197
+.197
+1.97
+19.7
+197
+a.
+X
+=
+.0000075 .000075 .00075
+0.075
+.075
+.75
+7.5
+75
+490
+b.
+.0000104 .000104 .00104
+.0104
+.104
+1.04
+10.4
+78
+505
+>.
+C.
+X=
+.0000285 .000256 .00227
+.0198
+.169
+1.40
+11.2
+83
+515
+a.
+.000240
+.000252 .000816 .00778
+.0759
+.753
+7.5
+75.2
+539
+X
+b.
+z3
+.000240
+.000263 .001097 .01068
+.1049
+1.043
+10.4
+81.2
+541
+c.
+.000242
+.000367 .00234
+.0201
+.170
+1.42
+11.4
+85.3
+551
+55
+a.
+1.000
+.952
+.293
+.0351
+.0115
+.0043
+.0076
+.0642
+.418
+b.
+cos u=
+1.000
+.912
+.218
+.0257
+.0087
+.0072
+.047
+.277
+.358
+c.
+1.000
+.710
+.186
+.112
+.121
+.141
+.173
+.232
+.358
+a.
+1.000
+1.000
+1.000
+1.14
+3.62
+13.4
+236
+20,100
+937,000
+b.
+rO
++ rs
+1.000
+1.000
+1.000
+1.14
+3.80
+31.3
+2,030
+94,000
+808,000
+ri + r2
+c.
+-
+1.008
+1.082
+1.82
+9.35
+85.5
+832
+8,250
+82,000
+820,000
+rO
+
+===== PAGE 13 =====
+19191
+OF THE ELECTRIC CIRCUIT
+203
+As seen from the equations, and illustrated in Table I, the
+thermal resistance of the conductor, r1, that is, the resistance
+which converts electrical energy into heat in the conductor, is
+the true ohmic resistance at low frequencies, but with increas-
+ing frequency begins to rise due to unequal current distribution
+in the conductor (at about 1000 cycles in copper wire No. 00
+B. & S. gage) and approaches proportionality with the square
+root of the frequency, hence reaches values many times the
+ohmic resistance, at very high frequencies.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+100
+-
+-
+2
+a
+Return Conductor at 6 Ft.= 189 Cm.
+-
+b
+30 Ft. aboveGround as return
+c No return Conductor
+10
+I
+SX 0-
+1
+101
+102
+10
+104
+10
+106
+107
+io8
+:FIG. 1-HIGH PRLQUINCY CONST~A:TS OF COPPER WIRE No4. (JO) B. &. S
+GXiX
+The radiation resistance of the conductor without return
+conductor, r2, is proportional to the frequency, but the radiation
+resistance of the conductor with return cQnductor, r3, is propor-
+tional to the square of the frequency, hence very small until
+high frequencies are reached-10,000 to 100,000 cycles.
+The
+radiation resistance r3 of the conductor with return conductor
+then increases very rapidly and reaches values many thousand
+times the ohmic resistance.
+At the very highest frequencies,
+
+===== PAGE 14 =====
+204
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+many millions of cycles, its rate of increase becomes less again,
+and it approaches proportionality with the first power of the
+frequency, and approaches the value of radiation resistance
+r2, of the conductor without return conductor, at frequencies
+of a wave length comparable with the distance of the return
+conductor.
+The radiation resistance r3 of the conductor with
+return conductor is the larger, the greater the distance of the
+return conductor, and is proportional to this distance, within
+the range of which it is proportional to the square of the
+frequency.
+The radiation resistance of the conductor without
+return conductor, at the very highest frequencies, is the same
+as that of the conductor with return conductor, but, being
+proportional to the frequency, with decreasing frequency, it
+decreases at a lesser rate, and would even at commercial ma-
+chine frequencies still be appreciable,
+if at such frequencies
+the conditions of a conductor without return conductor could
+be realized.
+The total effective resistance of a conductor under trans-
+mission line conditions, that
+is, with return conductor at
+finite distance, is at low frequencies constant and is the true
+ohmic resistance.
+With increasing frequency,
+it begins to
+increase first slowly
+at about 1000 cycles under transmission
+line conditions
+and approaches proportionality to the square
+root of the frequency, as the result of the screening effect of
+the unequal current distribution in the conductor.
+Then the
+increase becomes more rapid, due to the appearance of the
+radiation resistance-at about 100,000 cycles under trans-
+mission line conditions
+and reaches proportionality with the
+square of the frequency, at values many thousand times the
+ohmic resistance.
+Finally, at the very highest frequencies-
+10 million cycles-the rate of increase becomes less again, and
+approaches proportionality with the frequency.
+It is interesting to note that the external reactance of the
+conductor with return conductor, or radiation reactance x3,
+has up to very high frequencies, millions of cycles, the same
+value xo as calculated by the low-frequency formula, that is,
+by neglecting the finite velocity of the field, hence is propor-
+tional to the frequency.
+The internal reactance xi = x10, and
+is proportional to the frequency at low frequencies, but drops
+behind x10 due to unequal current distribution in the conductor,
+and approaches proportionality with the square root of the
+frequency.
+As, however, the internal reactance in a small part
+
+===== PAGE 15 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+205
+of the total reactance, it follows, that the total reactance of the
+conductor and thus also the absolute value of the impedance
+(for all higher frequencies, where the reactance preponderates)
+can be calculated by the usual low frequency reactance formula,
+which neglects the finite velocity of the field.
+Hence, the
+inductance L of the conductor can be assumed as approxi-
+mately constant for all frequencies up to millions of cycles; it
+decreases only very slowly by the decreasing internal reactance
+of unequal current distribution.
+Only at the very highest
+frequencies, where the wave length is comparable with the
+distance of the return conductor, the inductance L decreases,
+and the reactance x1 + x3 increases less than proportional to
+the frequency.
+In a conductor without return conductor, the reactance at
+the very highest frequencies is approximately the same as in a
+conductor with return conductor.
+With decreasing frequency,
+however, x1 + X2 decreases less than proportional to the fre-
+quency, that is, the inductance L increases-and becomes in-
+finity for zero frequency, if such were possible.
+Without considering unequal current distribution in the
+conductor and the finite velocity of the electric field, the power
+factor cos w would steadily decrease, from unity at very low
+frequencies, to zero at infinite frequency.
+Due to the increase
+of the effective resistance, the power factor cos co first decreases,
+from unity at low frequency, down to a minimum at some high
+frequency, and then increases again to high values at very
+high frequencies.
+The minimum value of the power factor is
+the lower and occurs at the higher frequencies, the shorter is
+the distance of the return conductor.
+Thus with the return con-
+ductor at 6 ft. distance, the power factor is 0.43 per cent at
+100,000 cycles; with the return conductor at 60 ft. distance, it
+is 0.72 per cent; in the conductor without return conductor
+the power factor is 11.2 per cent at 1000 cycles.
+It is of interest to determine the effect of size, shape and
+material on the high-frequency constants of a conductor.
+These high-frequency
+constants
+are, per unit length
+of
+conductor:
+Internal constants:
+Thermal resistance and internal reactance:
+x=
+0.4
+f
+10
+ohmspercm.(-4
+r1= x1=
+W
+..f10
+ohms per cm.
+(8)
+(9)
+
+===== PAGE 16 =====
+206
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+External constants:
+Radiation resistance:
+r3 =
+87 f
+I
+10-9 ohms per cm.
+(16)
+External reactance:
+X3 = 47rf log 2r-l-
+10-1 ohms per cm.
+(19)
+These approximations hold
+for all but the very highest,
+and very low frequencies, that is, are correct within the fre-
+quency range with lower limit of about 1000 cycles, and upper
+limit of about 10 million cycles.
+Thus they apply for all those
+high frequencies which are of importance in the disturbances
+occuring in industrial circuits with the exception of the lowest
+harmonics of low-frequency surges.
+The constants of the conductor material enter the equations
+only as the ratio
+permeability to conductivity, in the
+internal constants r1 and x.
+Thus higher permeability has
+the same effect in increasing the thermal resistance as lower
+conductivity, and for instance, a cast silicon rod of permeability
+/ =
+1, and conductivity y = 55, has the same high-frequency
+resistance and reactance, as an iron rod of the same size, of
+wrought
+iron,
+of permeability ,u = 2,000 and conductivity
+1.1 x 105, that is, of the same
+= 0.0182, though the
+-y
+latter has 2000 times the conductivity of the former.
+Provided however, that size of conductor and frequency are
+such as to fulfill the conditions under which equations (8) and
+(9) are applicable, which is, that the conductor is large compared
+with the depth of penetration of the current into the conductor:
+104
+p1
+w
+0.4 yAf
+Thus an iron rod of two inches (five cm.) diameter has at
+one million cycles the same thermal resistance as a silicon rod
+of the same size: 0.17 ohms per meter, since the depth of
+penetration is l, = 0.00034 cm. for iron, 0.68 cm. for silicon,
+thus in either case small compared with radius of the con-
+ductor 1, = 2.5 cm.
+
+===== PAGE 17 =====
+19191
+OF THE ELECTRIC CIRCUIT
+207
+At 10,000 cycles, however, the iron rod has the thermal
+resistance and internal reactance r1= x1= 0.017 ohms per
+meter, the penetration being
+p, = 0.0034 cm. thus small.
+For
+the silicon rod, however, at 10,000 cycles the penetration is
+Ip = 6.8 cm. thus at the radius 1I = 2.5 cm. formulas (8) and
+(9) do not apply any more, but it is approximately (that is
+neglecting unequal current distribution): ri = 0.093 ohms per
+meter, or 5.5 times the resistance of the iron rod, while the
+internal reactance is x1- 0.031 ohms per meter, hence 80
+per cent higher than that of the iron rod of the same size.
+In the equations of the external constants, the radiation
+resistance and reactance, the material constants of the conduc-
+tor do not enter, and the radiation resistance and the external
+reactance thus are independent of the conductor material.
+The dimensional constants of the conductor, size and shape,
+enter the equation only as the circumference of the conductor
+l1, 12, that is, only the circumference of the conductor counts
+in high-frequency conduction, and all conductors of the same
+material, regardless of size and shape, have the same high-
+frequency resistances and reactances as long as they have the
+same conductor circumference.
+Thus a solid copper rod or a
+thin copper cylinder of the same outer diameter as the rod, or
+a flat copper ribbon of a circumference equal to that of the rod,
+are equally good high-frequency conductors, though the hollow
+cylinder or the ribbon may contain only a small part of the
+material contained in the solid copper rod.
+Provided, however,
+that the thickness or depth of the conductor, ( the thickness of
+wall of the hollow cylinder, half the thickness of the copper
+ribbon) is larger than the depth of penetration of current into
+the conductor, which is
+104
+ip
+0.4 7y
+In the expression of the radiation resistance, r3, neither the
+material nor the dimensions of the conductor enter, that is,the
+radiation resistance of -a conductor
+is independent of size,
+shape or material of the conductor and depends only on
+frequency and distance of the return conductor.
+Thus a thin steel wire or a wet string have the same radiation
+resistance as a large copper bar.
+Obviously, the thermal
+resistance of the former is much larger and the total effective
+resistance thus would be larger except at those very high
+frequencies, at which the radiation resistance dominates.
+
+===== PAGE 18 =====
+208
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+As illustration, may be calculated,
+for frequencies from
+10 thousand to 10 million cycles and for 60 cycles, the resistances
+and reactances and thus the total impedance, the power factor,
+the voltage drop per meter at 100 amperes, of various conduc-
+tors, for the three conditions:
+a. High frequency between conductors 6 ft. apart:
+1' = 182 cm.
+b. High frequency between conductor and ground 30 ft.
+below conductor:
+1' = 1820 cm.
+c. High-frequency
+discharge through
+vertical
+conductor
+without return conductor:
+I'=
+co
+For the conductors:
+(1) Copper wire No. 00 B. & S. gage
+t, =
+0.463 cm.
+-y = 6.2 X 105
+(2) Iron wire of the same size as (1):
+,u= 2,000
+ty= 1.1 X 105
+(3) Copper ribbon of thickness equal to twice the depth of
+penetration at 10,000 cycles, and the same amount of material
+as (1), that is, 0.128 cm. by 5.52 cm.
+(4) Iron ribbon of the same size as (3).
+(5) Two-inch iron pipe, Y8 inch thick,
+This gi:ves the depth of penetration at f- 104 cycles:
+6.4
+for copper; 1 =
+0.064 cm.
+Vf
+for iron: Ip - 0.34
+- 0.0034 cm.
+Table II gives the values of ro, xo, r1, r3, r2, xI, x3? X2, r1 + r3,
+ri + r2, X1 + X3, X1 + X2, Z, COS c, e and lp, for f
+=
+106 cycles.
+Table III gives the values of ri + r3, or ri + r2, z, cos w
+and e, for f = 60, 104, 105, 106, 107 cycles for the five kinds of
+conductors.
+It is interesting to compare in Table III, the constants of
+the first four conductors, as they have the same section, repre-
+senting about average section of transmission conductors, but
+represent two shapes, round wire and thin flat ribbon, and two
+kinds of material, copper-high conductivity and non-magnetic,
+-and iron-magnetic material of medium conductivity.
+As seen, the effect of conductor shape and conductor ma-
+
+===== PAGE 19 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+209
+TABLE
+II.
+CIRCUIT CONSTANTS FOR f = 106 = ONE MILLION CYCLES, PER METER LENGTH OF
+CONDUCTOR.
+a.
+return conductor at 6 ft. = 182 cm. distance.
+b.
+return conductor at 2 X 30 ft. = 1820 cm. distance.
+c.
+no return conductor
+(1)
+(2)
+(3)
+(4)
+(5)
+Copper
+Iron
+Copper
+Iron
+Iron
+wire:
+wire:
+ribbon:
+ribbon:
+pipe:
+100
+ro -- =
+0.00024
+0.00135
+0.00024
+0.00135 0.000197
+2sfl'
+lo
+,u
+a.
+7.8
+635
+3.05
+173
+81
+ohms
+Xo
+0.4 7r f
+log
++
+-
+10-6
+12
+12
+4
+b.
+10.8
+638
+5.95
+176
+84
+.
+iGOir
+/0.4pf
+ri -
+4/
+10-
+=
+0.00865
+0.92
+0.00233
+0.248
+0.167
+0. 8 ir2 fl2
+J
+a.
+0.048
+0.048
+0.048
+0.048
+0.048
+ra =
+~
+~10-6=
+S
+b.
+0.48
+0.48
+0.48
+0.48
+0.48
+r2 = 0.2 7r2 f 10-6=
+c.
+1.97
+1.97
+1.97
+1.97
+1.97
+100r
+/0.4 pf
+X1 =
+4 /
+10-4 '
+0.00865
+0.92
+0.00233
+0.248
+0.167
+2 7rfi'
+a.
+7.5
+7.5
+2.97
+2.97
+2.47
+Xs = 0. 47rf| log
+~~10-6 =
+12
+b. 10.4
+10.4
+5.87
+5.87
+5.37
+X2 =0.4 rf( log
+-0.5772
+10-i =
+c.11.2
+11.2
+9.5
+9.5
+8.9
+12f
+a.
+0.0567
+0.97
+0.0503
+0.296
+0.215
+ohms
+r = ri + ra
+=
+b.
+0.489
+1.40
+0.482
+0.728
+0.647
+r = ri + r2 =
+c.
+1.98
+2.89
+1.97
+2.22
+2.14
+x xl+ xa=
+J
+a.
+7.5
+8.42
+2.97
+3.22
+2.64
+x =xi+Xs
+~
+~ ~
+b. 10 .4
+11.32
+5.87
+6. 12
+5.54
+x
+XI +
+X2
+c. 11.2
+12.12
+9.50
+9.75
+9.07
+a.
+7.5
+8.46
+2.97
+3.23
+2.65
+Z 2
+Tr2 +X2 =
+b. 10.4
+11.4
+5.89
+6.16
+5.58
+c. 11.4
+12.45
+9.7
+10.0
+9.3
+r
+a.
+0.76
+11.5
+1.7
+9.2
+8.1
+percent
+cosi =- =
+b.
+4.7
+12.3
+8.2
+11.8
+11.6
+.
+a
+c. 17.3
+23.3
+20.3
+22.2
+23.0
+it
+a.
+750
+846
+296
+323
+265
+volts
+e
+100 z
+l
+b.
+1040
+1140
+589
+616
+558
+C.
+1140
+1245
+970
+1000
+930
+104
+IP'
+=
+0.0064
+0.00034
+0.0064
+0.00034
+0.00034
+cm.
+.r
+0.4 -yf
+
+===== PAGE 20 =====
+TABLE
+III.
+Conductors 6 ft. apart:
+Conductor 30 ft. above Ground:
+Conductor without return- conductor:
+Frequency, cycles:
+60
+10'
+i05
+106
+10
+60
+104
+105
+106
+107
+60
+104
+i05
+106
+107
+Resistance, ri in ohms per meter:
+1.Coppr wire
+0.00024
+0.00087
+0.0052
+0.0567
+4.827
+0.000241 0.00091
+0.0075
+0.489
+22.5
+..
+0.0206
+.200
+1.98
+19.7
+2. Iron wire....0.0072
+0.092
+0.292
+0.97
+7.72
+0.0072
+0.092
+.0.297
+1.40
+25.4
+...
+0.1112
+.489
+2.89
+20.0
+3. Copper ribbon .0.00024
+0.00024
+0.00122
+0.0503
+4.81
+0.00024
+0.00028
+0.0055
+0.482
+22.5
+....
+0.0199
+.198
+1.97
+19.7
+4. Iron ribbon.
+0.0019
+0.0248
+0.079
+0.296
+5.58
+0.0019
+0.0248
+0.083
+0.728
+23.3
+....
+0.0435
+.265
+2.22
+20.5
+t~
+5. Iron pipe....0.0013
+0.0167
+0.053
+0.215
+5.33
+0.0013
+0.0167
+0.058
+0.647
+23.0
+....
+0.0364
+.250
+2.14
+20.2
+Impedance, z, in ohms per mneter.
+1. Copper wire
+0.00053
+0.076
+0.753
+7.51
+75
+0.00069
+0.105
+1.043
+10.41
+81
+..
+0.115
+1.14
+11.4
+85
+2. Iron wire....0.0105
+0.191
+1.083
+8.46
+78
+0.0106
+0.218
+1.37
+11.4
+85
+...
+0.233
+1.49
+12.45
+-88
+3. Copper ribbon .0.00030
+0.030
+0.298
+2.97
+30
+0.00043
+0.059
+0.588
+5.89
+49
+....
+0.097
+0.97
+9.7
+72
+4. Iron ribbon...
+0.0028
+0.060
+0.315
+3.23
+31
+0.0030
+0.087
+0.67
+6.16
+51
+...
+0.127
+1.06
+10.0
+74
+1
+5. Iron pipe....0.00195
+0.0446
+0.305
+2.65
+26
+0.0021
+0.072
+0.592
+5.58
+47
+...
+0.112
+0.97
+9.3
+70
+Power Factor ens so, in per cent:
+r
+1. Copper wire..
+45.3
+1.14
+0.69
+0.76
+6.4
+34.8
+0.87
+0.72
+4.7
+27.8
+...
+17.9
+17.5
+17.3
+23.2
+':~
+2. Iron wire....69.5
+48.2
+27.0
+11.5
+9.9
+68.0
+42.2
+21.6
+12.3
+30.0
+....
+48.0
+32.7
+23.3
+22.7
+.
+3. Copper ribbon .80.0
+0.8
+0.41
+1.7
+16.0
+53.5
+0.48
+0.93
+8.2
+46.0
+...
+20.5
+20.4
+20.3
+27.3
+4. Iron ribbon .... 68.0
+41.3
+25.1
+9.2
+18.0
+63.3
+20.6
+12.4
+11.8
+45.8
+...
+34.3
+25.0
+22.2
+27.7
+5. Iron pipe....66.7
+37.5
+17.4
+8.1
+20.4
+62.0
+23.2
+9.8
+11.6
+49.0
+...
+32.5
+25.8
+23.0
+29.0
+t?
+Voltage, e, in volts per meter
+1. Copper wire..
+0.053
+7.6
+75
+751
+f7500
+0.069
+10.5
+104
+1041
+8100
+...
+11.5
+114
+1140
+8500
+2. Iron wsre....1.05
+19.1
+108
+846
+7800
+1.06
+21.8
+137
+1140
+8500
+...
+23.3
+149
+1245
+8800
+3. Copper ribbon .
+0.03
+3.0
+30
+297
+3000
+0.043
+5.9
+59
+589
+4900
+...
+9.7
+97
+970
+7200
+'
+4. Iron ribbon ....
+0.28
+6
+36
+323
+3100
+0.30
+8.7
+67
+616
+5100
+...
+12.7
+106
+1000
+7400
+,5. Iron pipe....0.195
+4.5
+30
+265
+2600
+0.21
+7.2
+59
+558
+4700
+...
+11.2
+97
+930
+7000
+
+===== PAGE 21 =====
+19193
+OF THE ELECTRIC CIRCUIT
+211
+terial is very great at machine frequencies, 60 cycles, but
+becomes small and almost negligible at extremely high fre-
+quencies.
+This is rather against the usual assumption.
+The reason is that at machine frequencies, the unequal current
+distribution, or the screening effect of the internal magnetic
+field,
+is still practically absent in copper conductors, even
+in round wires of medium size, while it is practically complete
+in iron conductors,
+even in ribbon
+of '/20-inch thickness;
+while at very high frequencies the effect of radiation prepond-
+erates, which is independent of the material, and the radiation
+resistance even independent of the shape of the conductor.
+Thus under transmission line con-ditions, first and second
+section of Table III, at 60 cycles the impedance, and hence
+the voltage drop in the iron conductor is from 7 to 20 times that
+of the copper conductor; at 10,000 cycles the voltage drop in
+the iron conductor is only from 1.5 to 2.5 times that in the
+copper conductor; the difference has decreased to from 14
+per cent to 44 per cent at 100,000 cycles, 5 per cent to 12.5
+per cent at one million cycles, while at 10 million cycles the
+voltage drop in the iron conductor is only 3 to 5 per cent higher,
+thus practically the same and the only difference is that due
+to the conductor shape.
+The effective resistance, and thus the power consumption
+in the iron conductor at 60 cycles is from 8 to 30 times that of
+the copper conductor,
+but with
+increasing frequency the
+difference in the effective resistance increases to from 88 to
+106 times at 10,000 cycles, reaches a maximum, and then
+decreases again, and is from 15 to 65 times that of the copper
+conductor at 100,000 cycles, only 112 to 17 times at a million
+cycles, while at 10 million cycles and above, all the differences
+in the effective resistance practically disappear.
+As the result, the power factor of the conductor,-being the
+same, 100 per cent, at extremely low frequency and not much
+different, and fairly high at machine frequency-decreases
+with increasing frequency, reaches a minimum and then in-
+creases again to considerable values at extremely high fre-
+quency,-where the high radiation resistance comes into play.
+The difference between iron and copper, however, is that the
+minimum value of the power factor, at medium high fre-
+quencies, is very low in copper, a fraction of one per cent, while
+in the iron conductor the power factor always retains consider-
+able values, the minimum being 10 or more times that of the
+
+===== PAGE 22 =====
+212
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+copper conductor.
+Thus an oscillation in an iron conductor
+must die out at a much faster rate then in a copper conductor
+and the liability of the formation of a continual or cumulative
+oscillation may exist in copper conductors but hardly in iron
+conductors.
+The effect of the shape of the conductor on the impedance
+or voltage drop is fairly uniform throughout the entire fre-
+quency range, the voltage drop being the smaller, the larger the
+circumference.
+. With regards to the effective resistance, however, the effect
+of the conductor shape is considerable at very low frequencies
+in iron conductors, but absent with copper conductors, due
+to the absence of the screening effect in copper at low frequency.
+With increasing frequency,
+the
+difference
+appears
+in
+the
+effective resistance of the copper conductor also, with the
+appearance of unequal current distribution, and the ratio
+of the resistance of the round conductor to that of the flat
+conductor approaches the same value in copper as in iron.
+With the approach of very high frequency, however, the dif-
+ference decreases again, with the appearance
+of radiation
+effect, and finally vanishes.
+Thus to convey currents of extremely high frequency, an
+iron conductor is almost as good as a copper conductor of the
+same shape and cross section.
+As iron is very much cheaper
+than copper, it follows that in high-frequency conduction an
+iron conductor under the conditions of Table III should be
+better than a copper conductor of the same cost and the same
+general shape, due to the larger size or rather circumference of
+the iron conductor.
+There is, however, a material advantage at extremely high
+frequencies as well as at moderately high frequencies, in lower
+voltage drop at the same current resulting from such a shape
+conductor as gives maximum circumference, such as ribbon or
+hollow conductor.
+This advantage of ribbon or hollow tube,
+over the solid round conductor, exists also in the resistance and
+thus power consumption at medium high frequencies, but not
+at extremely high frequencies, but at the latter, in power con-
+sumption all conductors, regardless of size, shape or material,
+are practically equal.
+With
+the
+thickness
+of ribbon
+conductor
+considered
+in
+Table III, of about 1/20 inch, which is about the smallest me-
+chanically permissible under usual conditions, the screening
+
+===== PAGE 23 =====
+1919 ]
+OF THE ELECTRIC CIRCUIT
+213
+effect even in copper conductors is practically complete at
+10,000 cycles, that is, the depth of penetration less than one
+half the thickness of the conductor.
+It follows, that in the
+design of high-frequency conductor, the thickness of the ribbon
+or hollow cylinder is essentially determined by mechanical and
+not by electrical considerations; in other words, the thinnest
+mechanically permissible conductor usually
+is thicker than
+necessary for carrying the current.
+As iron usually cannot be
+employed in as thin ribbon as copper, due to its rusting, an
+iron conductor would have a larger section than a copper
+conductor of the same voltage drop and power consumption.
+Therebv a part of the advantage gained by the employment of
+the cheaper material would be lost.
+The last section of Table III gives the constants of the con-
+ductor without return conductor, such as would be represented
+by the discharge circuit of a lightning arrester, by a wireless
+telegraph antenna, etc., while the first two sections correspond
+to transmission line conditions; high-frequency currents
+be-
+tween line conductors and between line and ground.
+In the third section of Table III, the 60-cycle values are not
+given, and the values given for the lower high frequencies,
+104 and even 105 cycles, usually have little meaning, are rarely
+realizable; they would correspond to a vertical conductor, as
+lightning arrester ground
+circuit, under conditions where no
+other conductor is within quarter wave distance.
+Even at 101
+cycles, however, the quarter wave length is still 750 m.
+Thus
+there will practically always be other conductors within the
+field of the discharge conductor, acting as a partial return con-
+ductor, and the actual values of impedance and resistance, that
+is, of voltage drop and power consumption in the conductor,
+thus will be intermediate between those given in the third
+section, for a conductor without return conductor, and those
+given in the first sections, for conductors with return conduc-
+tors.
+Except at extremely high frequencies, at which the wave
+length gets so short thjt the condition of a conductor without
+return conductor becomes realizable.
+It is interesting to note,
+therefore, that at extremely high frequencies, the constants of
+the conductor without return conductor approach those of the
+conductor with return conductor.
+At lower high frequencies,
+impedance and resistance, and thus voltage drop and power
+consumption, of the returnless conductor are much higher than
+those of the conductor with return, the more so the lower the
+frequency.
+
+===== PAGE 24 =====
+214
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+However, while the case of the conductor without return
+conductor is not realizable at low and medium high frequencies
+in industrial circuits, it probably is more or less realized by
+the lightning discharge between ground and cloud, and the
+constants given in the third section of Table III would probably
+approximately
+represent
+the
+conditions met
+in
+the
+con-
+ductors of lightning rods such as used for the protection of
+buildings against lightning.
+It is interesting to note that with such a conductor without
+return conductor, the power factor is always fairly high, even
+with copper as conductor material.
+The impedance and thus
+the voltage drop does not differ much from those of the con-
+ductor with returni conductor.
+The resistance, however, and
+thus the power consumption are much higher, sometimes, in
+copper conductors, more than a thousand times as large, show-
+ing the large amount of energy radiated by the conductor-
+which reappears more or less destructively as "induced light-
+ning stroke" in objects in the neighborhood of the lightning
+stroke.
+III.-Wave Decay in Transmission Lines
+From the equations given in Appendix C, numerical values
+of the line constants are calculated and given in Table IV, for
+average transmission line conditions, that is, a copper wire,
+No. 00, with 6 ft. = 182 cm. between the conductors, and an
+average height of 30 ft. = 910 cm. above ground, for the two
+conditions:
+a. a high-frequency oscillation between two line conductors;
+b. a high-frequency oscillation between one line conductor
+and the ground.
+The table gives;
+The thermal resistance r,, the radiation resistance r8, and the
+total resistance r - r1 + r3;
+The internal reactance x1, the external reactance x3 and the
+total reactance x = x1 + x3.
+The magnetic attenuation u =
+r
+the dielectric attenu-
+2L'
+ation u2 =
+2C
+i and the total attenuation u = U1 + u2.
+The table also gives the duration of a transient in micro-
+seconds t, and in cycles N, that is, the time which a high-fre-
+
+===== PAGE 25 =====
+1919]
+OF THE ELECT'RIC CIRCUIT
+215
+quency oscillation of the frequency f would last, if continuing
+with its initial intensity, and the number of cycles, which it
+would perform.
+It also gives the power factor, in per cent, of
+the series circuit, as determined by resistance and inductance,
+and of the shunt circuit, as determined by shunted conductance
+and capacity.
+As seen, the attenuation constant u is constant up to nearly
+one thousand cycles.
+Thus in this range, all the frequencies
+die out at the same rate.
+From about one thousand cycles
+up to about 100,000 cycles, the attenuation constant gradually
+increases, and thus oscillations die out the more rapidly, the
+higher the frequency, as seen by the gradual decrease of the
+duration t.
+However, as the increase of the attenuation con-
+stant and thus the increase of the rapidity of the decay of the
+disturbance, in this range, is smaller than the increase of fre-
+quency, the number of cycles performed by the oscillation
+increases.
+Thus, at 25 or 60 cycles, the stored energy,which
+supplies the oscillating power, would be expended in less than
+one cycle, that is, a real oscillation would hardly materialize
+(except by other sources of energy, as the stored magnetic
+energy of a transformer connected to the line).
+At 1000 cycles,
+the oscillation would last 9 to 12 cycles, and at still higher fre-
+quencies reach a maximum of 41.4 cycles- at 20,000 cycles
+frequency, in the oscillation against ground; 64.9 cycles at
+100,000 cycles, in the
+oscillation between
+line conductors.
+This represents a fairly well sustained oscillation, in which
+the cumulative effect of successive cycles may be considerable.
+Above 100,000 cycles the attenuation constant begins to rise
+rapidly, and reaches enormous values, due to the rapidly
+increasing energy dissipation by radiation.
+As the result, the
+duration of the oscillation very rapidly decreases, and the
+number of cycles performed by the oscillation decreases, until,
+beyond a million cycles, the energy dissipation is so rapid, that
+practically no oscillation can occur; the oscillation dying out
+in a cycle or less, thus being practically harmless.
+The attenuation constant is plotted, up to 15,000 cycles, in
+Fig. 2, with the frequency as abscissas, and is plotted in Fig. 3
+in logarithmic scale, as (3).
+Noteworthy is the great difference between the oscillation
+against ground, and the oscillation between line conductors.
+The oscillation against ground is more persistent at low fre-
+quencies, due to the greater amount of stored energy in the
+
+===== PAGE 26 =====
+216
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+electric field of the conductor, which reaches all the distance
+to the ground.
+When reaching into very high frequencies
+however, the energy dissipation by radiation becomes appre-
+ciable at lower frequencies in the oscillation against ground,
+than in the oscillation between line conductors, and reaches
+much higher values, with the result that the decay of an oscil-
+lation between line and ground is much more rapid at high
+frequencies than the decay of an oscillation between line con-
+ductors.
+For instance, at 100,000 cycles, the latter performs
+440
+(2) 6 Ft. Distance between Conductors
+- .
+400
+(3) Conductor 30 Ft. above Ground
+360 -Kl-
+.
+320
+-
+280
+_
+240 -
+_
+I
+4200
+/
+/3); 4 51
+160 -
+X
+X
+-
+-
+120
+-1
+-
+j
+till
+0
+2
+4
+6
+8
+10
+12
+14
+16
+KILOCYCLES
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
+HARMONIC
+FIG. 2-ATTENUATION CONSTANT OF WIRE No. 00 B. & S. GAGE COPPER
+u = 1/2 (r/L+ g/C)
+65 cycles before dying out, while the former has dissipated its
+energy in 27 cycles, that is, in less than half the time.
+To further investigate this, in Tables V and VI the numerical
+values of effective resistance, power factor, attenuation con-
+stant and duration of a transient oscillation, in cycles, are
+given for six typical conductors and circuits, for frequencies
+from 10 cycles to five million cycles, and plotted in Fig. 3, 4,
+and 5, in logarithmic scale.
+1, 2, and 3 are lines of high power: copper conductor No.
+00 B. & S. gage, in 1 with 18 inches = 45.5 cm. between con-
+
+===== PAGE 27 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+217
+ductors, corresponding about to average distribution conductors,
+in 2 with 6 ft. = 182 cm., between conductors, corresponding
+to about average transmission line conductors with the oscil-
+lation between two lines, and in 3 with 60 ft.= 1830 cm.
+between conductor and return conductor, corresponding to an
+oscillation between line and ground, under average transmission
+line conditions, with the conductor 30 ft. above ground.
+4,
+5 and 6 give the same condition of an oscillation between line
+and ground, but in 4 an iron wire of the size of No. 00 B. & S.
+CYCLES
+I0 3
+1C04
+105
+106
+1) No.00 B.& S.Gage Copper, 18In. Distant
+2) No.00 B.& S.Gage Copper,6 Ft.Distant
+6.5
+(3) No.00 B. & S.Gage Copper,30 Ft. above Ground
+e
+(4) No. 00 B. & S. Gage Iron,30 Ft, above Ground
+(5) No.4 B. & S.Gage Copper,30 Ft. above Ground
+6.0
+U.:
+g
+106
+5.L
+10
+5.5
+6.5
+3.5~~~~~~~
+3.0
+--
+lo,
+2.5~~~~~~~~~~4-
+2.0
+lo)' j
+j
+:
+0
+3.0
+3.5
+4.0
+4.5
+5.0
+5.5
+6.0
+6.5
+log f
+FIG. 3-ATTENUATION CONSTANT u = 1/2 (r/L + g/C) (TABLE VI)
+gage, such as has been proposed for the station end of trans-
+mission lines, to oppose the approach of high-frequency dis-
+turbances.
+In 5 a copper wire No. 4 B. & S. gage, that is, a
+low power transmission line is represented, and in 6 a stranded
+aluminum conductor of the same conductivity as copper wire
+No. 00 B. & S. gage.
+The equations of the constants for these six circuits are given
+in Table V.
+This table also gives the limiting frequencies,
+between which the various formulas apply with sufficient
+
+===== PAGE 28 =====
+218
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+accuracy for practical purposes, and the lower limits, where
+the effects become appreciable, in the various conductors.
+In Fig. 3 the attenuation constants are plotted, in Fig. 4
+the power factors and in Fig. 5 the duration, in cycles.
+As such a transient oscillation dies out exponentially, the-
+oretically it has no definite duration, but lasts forever, though
+practically it may have ceased in a few micro-seconds.
+Thus
+as duration is defined the time, or the number of cycles, which
+the oscillation would last if maintaining its initial intensity.
+1
+In reality, in this time the duration has decreased to
+, or
+37 per cent of its initial value.
+Physically, at 37 per cent of
+its initial value, or 0.372
+=
+0.135 of its initial energy, it has
+become practically harmless, so that this measure of duration
+probably is the most representative.
+From Tables V and VI it is seen that there is no marked
+difference between the stranded aluminum conductor (6), and
+the solid copper wire of the same conductivity (3), and the val-
+ues of (6) are not plotted in the figures, but may be represented
+by (3).
+The attenuation constant u, in Fig. 3, is plotted in logarith-
+mic scale, with /f as abscissas.
+In such scale, a difference of
+one unit means ten times larger or smaller, and a straight line
+means proportionality to some power of the frequency.
+This
+figure well shows the three ranges; the initial horizontal range
+at low frequency, where the attenuation is constant; the ap-
+proximately straight moderate slope of medium frequency,
+where the attenuation constant is proportional to the square
+root of the frequency, the unequal current distribution in the
+conductor predominating, and the steep slope at high fre-
+quencies, where the radiation resistance predominates, which
+is proportional to the square of the frequency.
+It is interesting to note that at high frequencies the dist-
+ance of the return conductor is the dominating factor, while
+the effect of conductor size and material vanishes; in copper
+wire No. 00 the rate of decay is practically the same as in copper
+wire No. 4, though the latter has more than three times the
+resistance, or in the iron wire, which has nearly six times the
+resistance and 200 times the permeability.
+The permeability
+of the iron wire has been assumed as , = 200, representing
+load
+conditions, where by the passage of the low-frequency
+
+===== PAGE 29 =====
+1919J
+OF THE ELECTRIC CIRCUIT
+219
+power current the iron is magnetically near saturation, and its
+permeability thus lowered.
+However, the decay of the oscil-
+lation between conductor and ground is six to seven times
+more rapid than that between conductors 6 ft. apart, and that
+between conductors 18 inches apart about three times less.
+This shows, that to produce quicker damping
+of high-
+frequency waves, such as are instrumental in steep wave fronts,
+the most effective way is to separate the conductors as far as
+possible, perhaps even lead them to the station by separate
+single-conductor lines; but the use of high-resistance conductors,
+or of magnetic material, as iron, offers little or practically no
+advantage in damping very high frequencies or flattening steep
+wave fronts.
+At medium and low frequencies however, the relation re-
+verses, and the decay of the wave is the smaller the greater the
+distance of the return conductor.
+The reason is, that in this
+range the effective resistance is still independent of the conduc-
+tor distance, while the inductance increases with increasing
+distance.
+At medium and low frequencies, the iron conductor
+offers an enormously increased attenuation
+from 10 to 20
+times that of non-magnetic conductors.
+The power factor of the conductor is plotted in Fig. 4.
+As
+seen, it decreases from unity, at very low frequencies, to a
+minimum, at medium high frequencies, and then increases
+again to very high values at very high frequencies.
+The
+minimum value is a fraction of one per cent except with the
+iron conductor, where the minimum
+is very much higher.
+The power factor is of importance as it indicates the percentage
+of the oscillating energy, which is dissipated per wave of oscil-
+lation.
+This is represented still better by Fig. 5 the duration
+of the oscillation in cycles, that is, the number of cycles which
+an oscillation lasts before dissipating the stored energy which
+causes it.
+At medium high frequencies, the oscillation is the more
+persistent the lower the ohmic resistance of the conductor and
+the further away the return conductor, while at very high fre-
+quencies the reverse is the case, and the oscillation is the more
+persistent, the shorter the distance of the return conductor,
+while the size and material of the conductor ceases to have any
+effect.
+The maximum number of cycles is reached at medium high
+frequencies, in the range between 20,000 and 100,000 cycles-
+
+===== PAGE 30 =====
+220
+STEINMETZ: GENERAL EQUATIONS
+[Feb 20
+depending on conductor size and distance of return conductor.
+It thus is in this range of frequencies, where an oscillation caused
+by some disturbance lasts the greatest number of cycles, that
+the possibility, by some energy supply by means of an arc,
+etc., to form a stationary oscillation or even a cumulative oscil-
+lation, thus to become continuous or "undamped", is greatest.
+It would thus appear, that this range of frequencies,
+of
+20,000 to 100,000, represents what may be called the "danger
+22
+(1) No 00 B.& S. Gage Copper
+1t8 In. Distant
+20
+(2) No. 00 B.& S Gage Copper, 6 Ft.Distant
+(3) No.00 B.& S.Gage Copper,30 Ft above Ground
+I
+(4) No.00 B.& S.Gage Ironx0 Ft. above Ground
+18
+(5) No 4 B&S
+ag
+Copper, 30 Ft above (Cround
+16
+K
+,2_
+8 4;
+-
+)
+s12(
+3.0
+3.5
+4.0
+4.5
+SO5.0
+55
+6.0
+6.5
+103
+104
+105
+106
+FIG. 4-POWER FACTOR OF SERIES CONSTANT COS CDr
+(TABLE VI)Vr(2
+L)
+frequencies" of transmission systems.
+It is interesting to note,
+that experimental investigations have shown that the natural
+frequency of oscillation of the high-voltage windings of large
+power transformers usually
+is within this range of danger
+frequencies.
+The possibility of the formation of destructive
+cumulative oscillations or stationary waves in the high-voltage
+windings of large power transformers is therefore greater than
+probably with any other class of circuits, so that such high-
+
+===== PAGE 31 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+221
+potential transformer windings require specially high disruptive
+strength and protection.
+This accounts for the not
+infre-
+quent disastrous experience with such transformers,
+before
+this matter was realized.
+Fig. 5 also shows, that the duration of an oscillation in iron
+wire, in cycles, is very low at all frequencies.
+Thus the for-
+mation of a stationary oscillation in an iron conductor
+is
+practically excluded, but such conductors would act as a dead
+resistance, damping any oscillation by rapid energy dissipation.
+The duration of high-frequency oscillations, in cycles, increases
+with increasing frequency, to a maximum at medium fre-
+(1) No.00 B.& S. Gage Copper 18 In. Distant
+(2) No.00 B.& S. Gage Copper 6 Ft. Distant
+(3) No. 00 B. & S. Gage Copper 30 Ft. above Ground
+(4) No. 00 B. & S. Gage Iron 30 Ft. above Ground
+(5) No. 4 B. & S. Gage Copper 30 Ft. above Ground
+60
+3
+56
+26e-asn
+40
+(2)
+T
+n
+u
+103
+1he
+o0o
+106
+3.0
+3.5
+4.0
+4.5
+5.0
+5.5
+6w0
+6t5
+FIG. 5-DURATION OF OSCILLATION IN CYCLES (TABLE VI)
+quencies.
+This obviously does not mean that the time during
+which the oscillation lasts increases; the time, in micro-seconds,
+naturally decreases with increasing frequency, due to the in-
+creasing attenuation constant.
+Thus
+in conductor
+(2)
+for
+instance, the oscillation lasts 65 cycles at a frequency of 100,000
+cycles, but only 9 cycles at 1000-cycle frequency.
+However,
+the 65 cycles are traversed in 650 micro-seconds, while the 9
+cycles last 9000 micro-seconds, or 14 times as long.
+It is not
+the total time of oscillation, but the cunmulative effect due to
+the numerous and
+only slowly decreasing successive waves,
+which increases as represented in Fig. 5.
+
+===== PAGE 32 =====
+222
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+An oscillation between
+copper wires No. 4 B. & S. gage
+6 ft. apart, would give a duration curve, which at moderate,
+frequencies follows
+(5)
+of Fig.
+5, but at high frequencies
+follows (2).
+Thus the average duration and average rate of
+decay would be about the same as (3), an oscillation between
+copper wire No. 00 and ground.
+However, the oscillation
+would be more persistent in such a conductor at high, and less
+persistent at low frequencies.
+A complex wave, containing
+all the harmonics from low to very high ones, such as a steep
+wave front impulse or an approximately rectangular wave,
+as may be produced by a spark discharge, etc, would have
+about the same average rate of decay in a copper wire No. 4
+with return at 6 ft., as in a copper wire No. 00 with ground
+return.
+The wave front would flatten, and the wave round off,
+approaching more and more a sine shape, due to the more rapid
+disappearance of the higher frequencies, while at the same time
+decreasing in amplitude.
+The wave thus would pass through
+many intermediate shapes.
+But these intermediate shapes
+would be materially different with wire No. 4 and return at
+6 ft., as with No. 00 and ground return; in the latter, the
+flattening of the steep wave front, and rounding of the wave,
+would be much more rapid at the beginning, due to the shorter
+duration of the transient, and while such wave would last
+about the same time, that is, pass over the lines to about the
+same distance,
+it would carry steep wave fronts to much
+shorter distances, that is, its danger zone would be materially
+less than that of the wave in copper wire No.4 with return at
+6 ft.
+It therefore, is of great interest to further investigate the
+effect of the changing attenuation constant on complex waves,
+and more particularly those with steep wave fronts, as the
+rectangular waves of starting or disconnecting lines, etc.
+IV.-Attenuation of Rectangular Waves
+The destructiveness
+of high
+frequencies
+or steep wave
+fronts in industrial circuits is rarely due to over-voltage be-
+tween the circuit conductors or between conductor and ground,
+but is due to the piling up of the voltage locally, in inductive
+parts of the circuit, such as end turns of transformers or
+generators, current transformers, potential regulators, etc., or
+inside of inductive windings as the high-potential coils
+of
+power transformers, by the formation of nodes and wave crests.
+
+===== PAGE 33 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+223
+Such effect may be produced by high-frequency oscillations
+sustained over a number of cycles, as discussed in III, as
+oscillations lasting only a very few cycles or a fraction of a cycle,
+or due to non-oscillating transients, as single impulses, etc.
+As the high rate of change of voltage with the time, and the
+correspondingly high voltage gradients along the conductor
+are the source of danger, to calculate and compare oscillatory
+and non-oscillatory effects in this respect, it has become cus-
+tomary in the last years to speak of an "equivalent frequency"
+of impulses, wave fronts or other non-oscillatory transients.
+As "effective" or "equivalent" frequency of an impulse,
+wave front etc.,
+is understood the frequency of an oscillation,
+which has the same maximum amplitude, e or i, and the same
+maximum gradient
+de
+or
+dit
+Thus assuming an impulse
+dt
+d
+which reaches a maximum voltage e= 60,000, and has a
+maximum rate of increase of voltage of de
+= 1010, that
+is, a
+maximum voltage rise at the rate of 1010 volts per second, or
+10,000 volts per micro-second.
+As the average voltage rise
+2
+of a sine wave is
+2
+times the maximum, the average rise of
+an oscillation of the same maximum gradient as the impulse
+would be
+2
+de
+20,000
+r
+dt
+-
+volts per microsecond.
+The total voltage rise of e = 60,000
+thus would occur in
+e
+_60,0007r=
+e
+___
+2
+_
+9.4 micro-seconds.
+2
+de
+-20,000
+w
+dt
+A complete cycle of this oscillation thus would last 4 X 9.4=
+37.6 micro-seconds, and the equivalent frequency of the im-
+puise would be
+106
+f -
+37.6 = 26,600 cycles or 26.6 kilo cycles.
+The equivalent frequency of a perfectly rectangular wave
+front if such could exist, obviously would be infinity.
+
+===== PAGE 34 =====
+224
+STEINMETZ: GENERAL EQUATIONS
+[F4'eb. 20
+A. QUARTER WAVE CHARGING OR DISCHARGING OSCILLATION
+OF LINE
+Considering first the theoretically rectangular wave of con-
+necting a transmission line to a circuit, or disconnecting it
+from the circuit.
+Suppose a transmission line, open at the distant end, is
+connected to a voltage E.
+At this moment, the voltage of the
+line is zero.
+It should be, in permanent conditions, E.
+Thus
+the circuit voltage consists of a permanent voltage E (which is
+the instantaneous value of the alternating supply voltage at
+this moment Eo sin sp and the transient voltage -E.
+We thus
+have a transient voltage, which uniformly = -E all along the
+line, except at the switching point 1 =
+0, where the transient
+voltage is zero.
+Or, suppose a transmission line, open at the far end, is
+connected to a source of voltage, and at the moment where
+this voltage is E, the line short circuits at some point, by a
+spark discharge, flash-over, etc.
+Thus at this moment, the
+voltage= 0 at the point of short circuit, and is = E every-
+where between this point and the end of the line.
+Thus we
+get a line discharge leading to the same transient, a theoret-
+ically rectangular wave.
+In the part of the line between
+generator and short circuit, we have a different transient, a
+circuit of voltage e = 0 at one end, e = E throughout the entire
+length at time t= 0, and e = E continuously at the other
+end, where the generator maintains the voltage.
+However,
+this again leads to the same transient,
+of a theoretically
+rectangular wave.
+Assuming thus, as an instance, a transmission line of 100-km.
+length, of copper wire No. 00 B. & S. gage, 30 ft. above ground,
+open circuited at the other end 1 = 100 km., and connected to
+a source of voltage E at the beginning, 1 =
+0.
+Then the beginning of the line, 1 =
+0, is grounded, at the
+time t =
+0, thus giving a quarter wave oscillation, with the
+terminal conditions:
+Voltage along the line constant = E, at time t = 0, except
+at the beginning of the line,
+1 =
+0, where the voltage is 0.
+Current along the line = 0 at t =
+0, except at 1 = 0, where
+the current is indefinite.
+The equation of the quarter wave oscillation of the line
+conductor against ground, as usually given', then is:
+1. See for instance: "Theory and Calculation of Transient Electric
+Phenomena," Section IV, Chapter VII, equation (57).
+
+===== PAGE 35 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+225
+4 E
+,,
+sin (2n + 1)rcos (2n + 1)
+(1)
+0
+where:
+0 is the time angle of the fundamental wave of oscillation, of
+frequency:
+fo =4 lo
+4 X 100 X 101 = 750 cycles.
+(2)
+T is the distance angle, for lo = 100 km. = 90° = 7r72, that is:
+0= 2 7rfot
+-7rl1
+T =2 lo1
+3
+(3)
+Equation (1) however assumes that u, and thus r, L, C and
+g are constant for all frequencies.
+As this is not the case, but
+u is a function of the frequency, and thus of n: e-ut cannot
+be taken out of the summation sign.
+Equation (1) thus must
+be written:
+co
+e=4E
+-u 1sin(2n +1) rcos (2n±+1)0
+(4)
+0
+where un is the value of u for the frequency: f = (2 n + 1) fo.
+From (4) follows, as the voltage gradient along the line:
+0
+0O
+.2 E
+C.2n-un, COS (2 n + l) (T + 0)
+00
++
+n e-un I COS (2 n - 1) (T-°)
+(6)
+0
+The maximum voltage gradient occurs at the wave front,
+that is, for 0 = r.
+Substituting this, and substituting further,
+from (3):
+d
+T
+d
+2
+(7)
+
+===== PAGE 36 =====
+226
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+gives, as the maximum voltage gradient:
+dl i~~~
+00
+00
+G
+de
+-
+E
+it c_nt Cos (2rn + 1) 2r +
+±
+n E-lln}
+0
+0
+(8)
+It is however:
+00
+itcos(2n+1)2-r 0
+(9)
+0
+for all values of r except r - 0 and r =
+r, that is, the beginning
+of the line, 1 = 0.
+Thus, approximately, as u,, varies gradually:
+00
+e-un Icos (2 r + 1)2= 0
+(10)
+0
+except for values of r = 0 or very near thereto.
+Substituting (10) into (8) gives:
+00
+0
+as the approximate expression of the maximum voltage gra-
+dient, that is, the steepness of the wave front, at time t, that is,
+at distance from the origin of the wave:
+1= St= 3 X 1010t
+(12)
+If 0 differs materially from r, the term with
+(ir- 0) in
+equation (6) also vanishes, and de = 0
+that is, there is no
+d,r
+voltage gradient except at and near the wave front.
+From
+(11)
+are now calculated numerical values of the
+steepness of the wavefront G, for various times
+t after its
+origin, and thus by (12), various distances 1 from the origin.
+These numerical values are given in Table VII, for E = 60,000
+volts.
+At a fundamental frequency of fo = 750 cycles, successive
+harmonics differ from each other by 1500 cycles, and for every
+value of t, values of E-un t thus have to be calculated for the
+frequencies:
+n=
+0
+1
+2
+3
+4
+5
+6
+etc.
+f= 750
+2250
+3750
+5250
+6750
+8250
+9750 cyclesetc.,
+
+===== PAGE 37 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+227
+until the further terms add no further appreciable amount to
+I E-84 I.
+In calculating, it is found that for instance for t = 5
+microseconds, or 1 = 1 5 km., this occurs at f = 5 X 101 cycle,
+thus beyond the 5 x 1O
+=
+6670th
+harmonic.
+Thus
+6670
+750
+terms of the series would have to be calculated to get this one
+point of the wave gradient: more terms for shorter, less terms
+for longer distances 1 of wave travel.
+This obviously is impos-
+TABLE VII
+ATTENUATION OF WAVE FRONT OF QUARTERWAVE OSCILLATION, OF
+100 KM. LINE, 60,000 VOLTS.
+Time t,
+Gradient
+Wave Front:
+micro-
+Distance I
+f, where
+Voltage
+G,
+Equiva-
+seconds.
+km:
+miles:
+e Itt
+1
+d e
+volts per
+lent kilo-
+Length,
+from origin of wave.
+vanishes
+E
+d-I
+meter.
+cycles.
+meters.
+(3)
+Copper wire No. 00 B. & S. gage 30 ft. = 910 cm. above ground.
+0
+0
+0
+oro
+60,000
+00
+0
+.03
+.01
+.0062
+....
+5,800
+5,500
+8,800
+6
+.575
+.1725
+.107
+10 X 106
+1,370
+1,290
+2,060
+73
+1.15
+.345
+.215
+8 X 106
+1,025
+967
+1,540
+98
+2.3
+.69
+.43
+6 X 106
+670
+630
+1,000
+150
+11.5
+3.45
+2.15
+4 X 106
+300
+280
+450
+330
+23
+6.9
+4.3
+2 X 106
+218
+205
+330
+460
+92
+27.6
+17.2
+106
+104
+98
+156
+960
+230
+69
+43
+.7 X 106
+62
+58
+92
+1,630
+2,300
+690
+430
+.2 X 106
+133
+12
+19
+7,900
+23,000
+16,900
+4,300
+50,000
+1.31
+1.2
+1.9
+79,000
+(1)
+Copper wire No. 00 B. & S. gage, return conductor at 18 ins. =45.5 cm distance.
+2.3
+.69
+.43
+20 X 106
+3,450
+3,240
+5,160
+29
+23
+6.9
+4.3
+10 X 106
+1,020
+960
+1 ,530
+98
+230
+69
+43
+4 X 106
+250
+234
+370
+400
+(5)
+Copper wire No. 4 B. & S gage, 30 ft. = 910 cm. above ground.
+23
+6.9
+4.3
+2 X 106
+227
+213
+340
+440
+230
+69
+43
+.7 X 106
+64
+60
+94
+1,570.
+(4)
+Iron wire No. 00 B. & S. gage, 30 ft. = 910 cm. above ground.
+23
+6.9
+4.3
+2 X 106
+143
+135
+215
+700
+230
+69
+43
+l3 X106
+11
+10
+16
+9,400
+sible, and some simpler approximation, of sufficient accuracy,
+thus is required.
+This may be done as follows:
+In the range from 5 X 105 to 106 cycles for instance, there
+ar106-
+5x 10
+= 333 harmonics.
+Instead of calculating u
+and
+e-ui for each of these harmonics, calculate e-u' for the
+average value of these 333 harmonics, and multiply by 333.
+Thus,
+dividing the entire frequency range
+(beyond the
+lowest harmonics, which are calculated separately), into groups,
+
+===== PAGE 38 =====
+228
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+and calculating one average value for each group, the calcula-
+tion of 2 Eu-u
+becomes feasible.
+Since
+E-u
+is calculated through
+/e-'u
+-
+- U t /E,
+as
+values of t, multiples of
+1
+have been chosen, to still further
+simplify the calculation, in deriving a curve of gradients G.*
+Table VII gives the values of the maximum voltage gradient
+of the wave front, in volts per meter at 60,000 volts maximum
+initial line voltage, the equivalent frequency of the wave front,
+in kilo-cycles, and the length of the wave front, in meters, for
+various times of wave travel, from 0. 03 micro-seconds up, and
+corresponding distances of wave travel, from 10 meters from
+the origin as rectangular wave, up to thousands of kilometers,
+TABLE VIII.
+ATTENUATION OF WAVE FRONT OF QUARTER-WAVE OSCILLATION, OF
+100-KM. LINE, 60,000 VOLTS.
+Conductor:
+(3)
+(1)
+(5)
+(4)
+Size No.:
+00
+00
+4
+00
+Material:
+Copper
+Copper
+Copper
+Iron
+Distance of return conductor, cm.:
+1820
+45.5
+1820
+1820
+After 23 microseconds, 6.9 km.:
+Gradient, volts per meter:
+.205
+960
+213
+135
+Length of wave front, meters:.
+460
+98
+440
+700
+Equivalent kilocycles:
+.330
+1530
+340
+215
+After 230 microseconds, 69 km.:
+Gradient, volts per meter:
+.58
+234
+60
+10
+Length of wave front, meters:.
+1630
+400
+1570
+9400
+Equivalent kilocycles
+:.92
+370
+94
+16
+for copper wire No. 00 B. & S. gage, 30 ft.
+910 cm. above
+ground, with the ground as return.
+For comparison are given some data of the same conductor,
+with the return conductor at 18 inches = 45.5 cm., and also
+for a copper wire No. 4, and an iron wire No. 00, with the
+ground as return.
+These data are&plotted in Fig. 6, showing the wave front, as
+it gradually flattens out in its travel over the line, from the
+very steep wave at 172 meters from the origin, to the wave
+with a front of 1630 meters, 69 km. away.
+A comparison ofthe data of the four circuit conditions is
+given in Table VIII, and plotted in Fig. 7.
+It is interesting to note, that there is practically no difference
+*Here and in the following, the symbol /
+has been chosen for the
+common logarithm.
+
+===== PAGE 39 =====
+1919]
+OF THE ELECTRIC_CIRCUIT
+229
+in the flattening of the wave front on a low resistance conductor,
+No. 00, and a high resistance conductor, No. 4.
+There is,
+however, an enormous difference due to the effect of the close-
+0.2
+0.4
+0.6
+0.8
+1.0
+3.2 3.3 3.4 3.5 3.6 3.7
+6;
+667 6.8 6.9 710 7,1
+27.0
+27.2
+27.4
+27.6
+27.8
+28.0
+28.2
+~KM
+-K
+H
+~~~~KM.
+68.0
+68.2
+68.4
+68.6
+6a.8
+69.0
+69.2
+69.4
+69.6
+69.8
+FIG. 6-FLATTENING
+OF STEEP WAVE FRONT
+IN TRANSMISSION LINE
+No. 00 B. &. S. G-AGE COPPER 30 FT. ABOVE GROUND
+ness of the return conductor; with the return conductor at 18
+inches distance, the wave front is still materially steeper at 6.9
+km. distance, than it is in the conductor with ground return at
+0.6 0.7 0.8 6.8 6.9 7.0 7.1
+68.6
+68.8
+69.0
+69.2
+69.4
+69.6
+69.8
+-,
+-
+t_No.00 B.& S. Gage Copper
+__ _ _.7t
+__ C-__f _ _
+30 Ft;above Ground
+No.00 B.& S. Gage Copper
+18 In. Distant
+-.1
+~~~~~~~~~No.
+4 B.& S. Gage Copper
+I LZ
+_ _ -
+_
+<30
+Ft. above Ground
+(4)
+- - - -- -
+-
+-
+-
+~~~~~No.OQ0B.&S. Gagelron
+30 Ft. above Ground
+64
+66
+68
+70
+72
+74
+FIG. 7
+0.69 km. distance.
+That is, .the flattening of the wave front
+in the conductor with ground return, is more than ten times as
+rapid, than in the same conductor with the return conductor
+
+===== PAGE 40 =====
+230
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+closely adjacent.
+Or in other words, the danger zone of steep
+wave front, extends in a conductor with the return conductor
+closely adjacent, to more than ten times the distance than in
+the conductor with ground return.
+This means, where it is desired to transmit a high-frequency
+impulse or steep wave front to the greatest possible distance,
+it is essential to arrange conductor and return conductor as
+closely adjacent as possible.
+But where it is essential to limit
+the harmful effect of very high frequency or steep wave front
+as much as possible to the
+immediate neighborhood
+of
+its origin, the
+return
+con-
+8
+ductor should be separated
+l
+9
+as far as possible.
+The data on iron wire are
+10
+very disappointing;
+there is
+an enormous increase in the
+2
+11
+flattening of the wave front
+at great distances, by the use
+3
+.2
+of iron as conductor material,
+ii
+so much so that the wave
+4.
+front of the iron conductor at
+14
+69 km. distance had to be
+1
+shown (dotted) at one-tenth
+the scale of the other con-
+6
+16
+1
+ductors,
+in Fig. 7.
+But at
+moderate- distances, 6.9 km.
+17
+from the origin, the flatten-
+ing of the wave front in the
+QUARTERWAVE CHARGING OSCILLATION
+*
+~~~~~~~~~~~~~~OF
+TRANSMISSION
+LINE
+iron conductor is only little
+FIG. 8
+greater than in a copper con-
+ductor of the same size: 215 kilo-cycles against 330 kilo-cycles.
+At short distances, the difference almost entirely ceases, and
+within one km. from the origin, the wave front in an iron con-
+ductor is nearly as steep as in a copper conductor of the same
+size.
+Thus a short length of iron wire between station and line
+would exert practically no protection against very high-frequen-
+cy oscillations or steep wave fronts, such as may be produced
+by lightning strokes in the neighborhood of the station.
+This was to be expected from the shape of the curve of the
+attenuation constant, shown in Fig. 3.
+From the data in Table VII then are constructed and shown
+
+===== PAGE 41 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+231
+in Fig. 8, the successive curves of voltage distribution in the
+line, as it is discharging (or charging), by the originally rect-
+angular wave running over the line, reflecting at the end of
+the line and running back, then reflecting again at the beginning
+of the line and once more traversing it, etc., until gradually
+the transient energy is dissipated and the line voltage reaches
+its average, zero in discharge, or the supply voltage in charge.
+The direction of the wave travel in the successive positions is
+shown by the arrows in the center of the wave front;
+the
+existence and direction of current flow in the line by the arrows
+in the (nearly) horizontal part of the diagram.
+As seen, after
+four to five reflections, the voltage distribution in the line is
+practically sinusoidal.
+However, in these diagrams Figs. 6 to 8, the wave front has
+been constructed from the maximum voltage gradient derived
+by the calculation, assuming as approximation the shape of the
+wave front as a sinusoid.
+This usually is a sufficient approxi-
+mation, since the important feature is the maximum gradient,
+that is, the steepest part of the wave front, which was given by
+the calculation;
+but it is not strictly correct, and the wave
+front differs from sine shape.
+It thus is of interest to investi-
+gate the exact shape of the wave front, in its successive stages
+of
+flattening.
+RECTANGULAR TRAVELING WAVE
+For this purpose we may investigate, as a further example,
+the gradual destruction of wave shape and decay of a 60,000-
+cycle rectangular traveling, wave, during its passage over a
+transmission line, changing from the original rectangular wave
+shape produced at its origin by lightning stroke, spark dis-
+charge, etc., into practically a sine wave.
+For this purpose, for the elementary symmetrical traveling
+wave, the equation is:
+4E
+7n E-untI sin (2n±ly) p
+(13)
+ir
+0
+where s° = O- r is the running time coordinate, in angular ex-
+pression.
+Values of e are calculated, for various times
+t, from one
+micro-second to 360 micro-seconds, for all the angles sp, where
+e
+has
+not
+yet
+become
+constant
+and
+equal
+to
+E.
+
+===== PAGE 42 =====
+232
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+In Table IX are given numerical values, plotted in Fig. 9, of
+00
+e 4E =
+-n I sin (2 n + 1),
+0
+from 0 to 90 deg., and from one to 360 micro-seconds, and de-
+rived therefrom, the values of the length of wave front, in
+degrees and in meters, and the equivalent frequency, in kilo-
+TABLE IX.
+ATTENUATION OF 60,000-CYCLE RECTANGULAR WAVE, IN LINE OF NO. 00 B. & S. GAGE
+COPPER, 30 FT. ABOVE GROUND.
+Time:
+t=
+0
+1
+2
+5
+10
+20
+40
+100
+360
+ms.
+Wave travel;
+I =
+0
+.3
+.6
+1.5
+3
+6
+12
+30
+108
+km.
+s
+=O degrees
+0.785
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0.250
+0.170
+0.106
+0.074
+0.052
+0.347
+0.022
+0.010
+5
+....
+0.785
+0.645
+0.475
+10
+....
+....
+0.785
+....
+0.606
+0.468
+0.582
+0.217
+0.100
+20
+....
+....
+....
+0.783
+0.770
+0.707
+0.709
+0.405
+0.193
+30
+.
+.
+.. 0.780- 0.762
+0.740
+0.547
+0.282
+40
+....
+....
+............. 0.775
+0.758
+0.639
+0.360
+50
+.
+...
+....
+..
+...
+...
+0.765
+0.691
+0.426
+60
+.........
+............ 0.722
+0.476
+70...
+..
+..
+..
+0.730
+0.513
+80.
+........
+.....
+...0.535
+90
+0.785
+0.785
+0.785
+0.783
+0.780
+0.775
+0.765
+0.730
+0.540
+degrees:
+0
+10
+16
+26
+44
+70
+90
+140
+180
+>
+meters:
+0
+140
+220
+340
+620
+980
+1250
+1940
+2500
+(50
+kilo-
+max:
+00
+1110
+750
+470
+325
+230
+165
+103
+63
+cycles: Iavg:
+00
+1080
+670
+420
+268
+155
+120
+77
+60
+Highest apprec. harmonic
+00
+61
+45
+33
+15
+9
+7
+3
+1
+Decrease of wave max:
+0
+....
+.0...
+.6
+1.3
+2.6
+7.0
+31.2
+%
+Maximum gradient volts
+per meter:
+co
+690
+470
+295
+205
+140
+100
+65
+40
+cycles.
+Two values are given,
+the maximum
+kilo-cycles,
+derived from the steepest part of the wave front, and the
+average kilo-cycles, derived from the total wave front.
+The
+difference indicates the deviation of the shape of the wave
+front from a sinusoid.
+As seen, due to the high fundamental frequency, 60,000
+cycles, the number of significant harmonics is very greatly
+reduced, until frequencies are reached where the attenuation
+is so enormous, that the destruction of the wave by its energy
+dissipation occurs in a few meters.
+
+===== PAGE 43 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+233
+Thus after one micro-second, or 300 meters wave travel,
+the calculation needs to extend only to the 61st harmonic;
+after two micro-seconds, to the 45th harmonic,
+etc., while
+after 100 micro-seconds, or 30 km. travel, only the third har-
+monic is still appreciable, and after 360 micro-seconds, or 108
+km. travel, even this has disappeared, and the wave is essen-
+tially a sine wave.
+In 30 km. travel, the wave maximum has decreased 7 per
+cent; in 108 km. it has decreased 31.2 per cent.
+It is important to note however, that waves of relatively
+high frequency, within the range of the danger frequencies
+between 20 and 100 kilo-cycles, can travel considerable dis-
+0
+0.25
+0.5
+0.75
+1..01.25 ..
+2.25 2.5
+\
+T
+tAttenuation of 60 Kilocycle Rectangular Wave in Line of
+10
+of l
+E, saNo.00 B. & S. Gage Copper, 30 Ft. above Ground
+t
+i
+about1/2ofits energy.
+T
+the dangerooofrom rsAne o
+FIG. 9
+tances, if no other causes of rapid attenuation are at work but
+those considered here, and still retain a large part of their
+energy.
+Thus the 60,000-cycle wave, after traversing 100 km.
+of line, still retains about 70 per cent of its amplitude, that is,
+about 1/2 of its energy.
+Thus the danger from resonance of
+power transformer windings with such frequencies is not local
+but rather extends over a large part of the system.
+The lower part of Fig. 9 shows the shape of the wave front
+at various distances from the origin; the upper part shows the
+gradual change of the wave from rectangular to flat top to sine
+wave.
+Plotting for the 750-cycle
+quarter wave
+oscillation
+and
+the 60,000-cycle traveling wave, the logarithm of the length of
+
+===== PAGE 44 =====
+234
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+the wave front, and of the equivalent frequency of the wave
+front, against the logarithm of the distance of wave travel,
+gives practically straight lines, (except for very great distances
+of wave travel, where the lower harmonics predominate), and
+from the slope of these lines it follows that:
+The length of
+wave front is approximately proportional and the equivalent
+frequency of the wave front approximately inversely propor-
+tional to the square root of the distance of wave travel:
+if
+N1VI
+(14)
+Af
+_
+C2(15)
+This would give a wave front constant cl and an equivalent
+frequency constant c2 of the circuit.
+V.-Flattening of Steep Wave Fronts
+A rectangular wave is represented by the equation
+00
+e= 4E
+It
+.-2t sin (2n + 1)rcos(2n +1)0
+(1)
+wr
+2n±
+(1)
+0
+where
+6 = 2 irfo t = time angle,
+(2)
+10
+= 2 ir
+10 = distance angle,
+(3)
+fo = fundamental frequency,
+10 =
+f
+- wave length,
+(4)
+S = 3 X 1010 = velocity of propagation,
+E = maximum voltage of wave.
+The voltage gradient is
+de =
+de
+dr
+dl
+d-r
+dl
+00
+_ 4E
+dr
+n E-utcOs(2n+1)rcos(2n+I)0
+(5)
+0
+
+===== PAGE 45 =====
+19191
+OF THE ELECTRIC CIRCUIT'
+235
+Substituting for d
+from (3), and resolving the cos-product,
+gives:
+00
+n E-utcos
+(2 n +1) k-
+}(
+0
++>
+C--11"COS (2 n + 1) (T + °)
+(6)
+0
+00
+C-Ot
+coS (2 n + 1) (r + 0) approaches zero for r + 0 X 0.
+0
+(7)
+thus:
+de
+- 4E
+nE-^
+'cos(2 n + I) (7-T- 0)
+(8)
+0
+The maximum voltage gradient occurs for 6 = r, and thus is:
+00
+d e
+4FE
+U
+G =
+d
+=
+EnC-ut
+(9)
+0
+This can be written in the form:
+00
+G =
+n 2fo E-Ut
+(10)
+fo1
+0
+It is however, by (4):
+folo- S
+(11)
+thus:
+G= 2E
+n 2foEc-u
+(12)
+0
+The values of
+c--u
+are taken for all values of frequency
+differing from each other by 2 fo, and, at and near the wave
+00
+front, the value of
+n 2 fo E-u! thus approaches the value of
+co~~~~~
+s0D~~~~
+Eu-l d f
+0
+
+===== PAGE 46 =====
+236
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+Substituting this into (10), gives as the equation of the maxi-
+mum steepness of wave front:
+G =de
+2E f
+C-t df
+(12)
+dl
+S
+0
+As seen, in this expression (12), wave length and frequency
+have disappeared.
+Equation (12) thus applies to any wave,
+TABLE X.
+ATTENUATION OF WAVE FRONT OF RECTANGULAR IMPULSE.
+Copper Wire No. 00 B. & S. gage, 30 ft. above Ground, Ground Return.
+f:
+10
+10O4
+i0(5
+10i-6
+lo
+1
+70
+1
+1
+2
+II
+2
+2
+5
+5
+5
+10
+9
+10
+20
+19
+20
+88
+50
+47
+50
+J
+102
+93
+99
+100
+2 X 102
+186
+198
+200
+5 X 102
+468
+496
+500.
+103
+80
+923
+992
+1,000
+8,888
+2 X 103
+115
+1,760
+1,970
+2,000
+5 X 103
+190
+4,150
+'4,920
+5,000
+104
+287
+7,500
+9,720
+9,999
+10,000
+2 X 104
+482
+10,200
+19,000
+19,900
+20,000
+88,888
+5 X 104
+1,300
+10,800
+44,000
+49,400
+50,000
+105
+3,710
+2,450
+69,000
+96,400
+99,500
+100,000
+2 X 105
+12,690
+1
+56,100
+176,000
+197,000
+200,000
+5 X 105
+74,200
+0
+240
+190,000
+466,000
+498,000
+106
+291,500
+......
+o
+54,300
+748,000
+970,000
+2 X 106
+1,160,000
+......
+18
+625,000
+1,780,000
+5 X 106
+7,230,000
+......
+......
+3,660
+1,860,000
+107
+28,800,000
+1......
+......
+562,000
+2 X 107
+115,000,000
+......
+......
+......
+a
+200
+2
+=
+38,660
+206,800
+605,000
+2,230,000
+6,060,000
+* 3 X .4343
+=
+29,700
+158,700
+464,000
+1,710,000
+4,650,000
+2 E
+G =
+X;
+-
+.119
+.635
+1.86
+6.84
+18.6
+[I =
+300
+30
+3
+.3
+.03 km.]
+whether of finite length or not.
+That is, it represents broadly
+(though only approximately) the maximum gradient of any
+steep wave front or impulse, at the time t after its origin as
+rectangular wave front or impulse.
+co
+As u is not a simple function off, the integration of
+E-
+t
+0
+
+===== PAGE 47 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+237
+d f in its general form meets with difficulties, and the integral
+may be evaluated as follows:
+Equation (12) can be written in the form
+2E
++
+G= 2f
+fE-ut dlogf
+(13)
+- co
+Plotting then f E-1" as ordinates, with log f as abscissas, gives
+a curve, and the area of this curve gives the integral.
+Instead of using log f as abscissas, it is more convenient to
+8.0
+7.0
+--4
+6.0
+4,0
+3.0
+_1
+20 tV
+< <
+X~~~~
+Seconds t1-S
+lOt I(410
+I+,
+_
+S
+1Km
+1= 300 1301 31
+.03
+0
+1 0
+2.0
+3.0
+4.0
+5.0
+6.0
+7.0
+8.0
+FIG. 10-ATTENUATION OF RECTANGULAR WAVE FRONT OF IMPULSE
+use the common logarithm, /f, and divide the measured area by
+= 0.4343.
+Numerically, the integration is done by calculating f E--u
+for
+(approximately) constant intervals of /f, adding all the values,
+and multiplying the sum by the (average) difference between
+successive Lf.
+As an instance is given, in Table X, the calculation for
+circuit (3) of the preceding, that is, copper wire No. 00 B. & S.
+gage, 30 ft. above ground, with the ground as return conductor,
+for the times t= 0.1,
+1, 10, 100 and 1000 micro-seconds,
+
+===== PAGE 48 =====
+238
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+corresponding to the distance of travel of the wave front of
+0.03, 0.3,3,30 and 300 km. As frequency intervals are selected:
+1, 2, 5, 10, 20, 50, 100, 200 etc., giving the logarithms: 0, 0.3,
+0.6, 1, 1.3 etc.
+These curves are plotted, in logarithmic scale, in Fig. 10.
+As seen,
+all these curves rise as straight lines under 45
+degrees, and then very abruptly drop to negligible values.
+In Table X, the values of f e-ru
+are added, then divided by
+three, since there are three intervals for each unit of /f, and
+multiplied
+by
+/e, to reduce
+to natural logarithms.
+Mul-
+tiplying by E/S then gives the gradient G.
+For medium and high frequencies, the attenuation constant
+u is given by the equations of appendix C as:
+r1 +I r3
+g
+(14)
+2 (L1 + Lo)
+2 C
+Neglecting the internal inductance L1, as small compared
+with the external inductance, this gives
+w \/2.5
+11
+104
+4w2
+'
+1
+log
+l
+/f
+S log
+(15)
+lg
+ir
+i
+= m\/T+m2f2
+where
+irV2.5
+2.5
+ml =
+-
+r
+104
+(16)
+Cz lOg
+Ir
+m.
+=
+4 r 11
+(17)
+Slog
+l
+For the conductor (3) in Table X, it is:
+ml= 2.6
+m2 =
+.29 X 10-
+(18)
+This expression (15) of u holds for all frequencies except
+very low frequencies-below 1000 cycles- and extremely
+
+===== PAGE 49 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+239
+high frequencies-many millions of cycles.
+The latter are of
+little importance, as they are wiped out in the immediate
+neighborhood of the origin of the rectangular impulse.
+At the
+low frequencies, the attenuation is so small, within the distances
+which come into consideration in the wave travel, and these
+low frequencies give such a small part of the wave front gra-
+dient, that the error made by the use of (15)
+is negligible.
+For instance, in the case of Table X, even at t = 100 micro-
+seconds, or 10 km. wave travel, the error made in the voltage
+gradient by
+altogether
+neglecting
+the attenuation
+of
+the
+frequencies up to 1000 cycles, would be only 0. 01 per cent.
+Thus the equation (15) of the attenuation constant can safely
+be used for all practical purposes.
+As the first term in equation (15) is proportional to Vf, the
+second term to f2, the second term is negligible at low and
+medium frequencies, while the first term is negligible at high
+frequencies.
+Both terms are equal at:
+f
+=
+2/3
+(19)
+That is, in the above instance, at
+f = 43,000 cycles.
+Thus, for high frequencies, that is, within moderate distances
+from the origin of the rectangular impulse-up to some kilo-
+meters-the first term can be neglected and the attenuation
+constant expressed by
+U= m2f2
+(20)
+The integral in equation (12) then becomes,
+00
+F
+e-m2tf2df
+(21)
+Substituting:
+x2
+m2tf2
+gives:
+df=
+dxx
+df-
+and:
+F=-
+1
+{EX2dx
+0
+
+===== PAGE 50 =====
+240
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+It is however:
+w00
+e_2d x = 1/2
+/
+J
+(22)
+thus:
+0
+2
+m2t
+(23)
+and:
+G
+=
+a/
+(24)
+SV/m2t
+or, since:
+1
+= St
+(25)
+G =
+aSE
+(26)
+Substituting (17) into (26), gives; in cm. and volts per cm.:
+log
+G=
+E
+lrlI1
+(27)
+0.282EV
+l?
+log
+t
+Thus; approximately, the maximum gradient, or steepness
+of the wave front of a rectangular impulse, in the neighborhood
+and at moderate distances from its origin, decreases inversely
+proportional with the square root of the distance or time of
+wave travel.
+It decreases with increasing distance
+1' of the return con-
+ductor, nearly in inverse proportion to the square root of 1'
+For the six types of circuits considered in the previous
+instances, it is:
+G=
+/G \/I
+(1)
+1
+Copper wire 00 B. & S, gage, 18 in. = 45.5 cm. from return con.: ,g_ X 1700
+3.230
+(2)
+Copper wire
+"
+"
+"
+6 ft.
+=
+182
+"
+968
+2.986
+(3)
+Copper wire
+"
+6
+"
+60 ft.
+= 1820
+"
+360
+2.556
+(4)
+Iron wire
+"
+"
+"
+60
+= 1820
+"
+360
+2.556
+(5)
+Copper wire
+4
+"
+"
+60
+= 1820
+"
+373
+2.572
+(6)
+Aluminum, stranded, same conductivity and arrangement as (3):
+353
+2.548
+
+===== PAGE 51 =====
+19191
+OF THE ELECTRIC CIRCUIT
+241
+where G is given in volts per meter, at E
+60,000 volts, and
+1 in kilo-meters:
+G = 89 X 10-3E
+log
+= 135 X 10-3E\V
+l
+/
+(28)
+= 8100 'V /il t'
+From Tables X, IX, and VII are collected the values of wave
+gradients G, and given in Table XI, together with their loga-
+rithms, and the / Go, calculated from equation (28), for com-
+parison of the different methods of calculation.
+Table XI then
+gives the difference A, and its value in per cent.
+The values of G are plotted in Fig. 11.
+The drawn line
+gives the values calculated by equation (28); the three cornered
+stars the values from Table X, the crosses the values from
+Table IX, and the circles the values from Table VII.
+As seen from Table XI and Fig. 11, the agreement of the
+equations (27) and (28) is satisfactory with the values of the
+wave front gradient taken from Tal3ies X and IX.
+The values of G from Table X differ erratically.
+This table
+was calculated by graphical integration, and it is probable
+that the intervals have been chosen too large, in that range
+where the curve drops very abruptly, as seen in Fig. 10.
+The agreement with the values from Table IX is very close.
+In this table, representing the course of a 60,000-cycle rectangu-
+lar traveling wave, the individual harmonics have been cal-
+culated, as they were relatively few, due to the high frequency
+of the fundamental.
+This agreement is important as it justifies
+equation (27).
+In deriving (27), we have substituted integra-
+tion for summation, that is, have replaced the discontinuous
+values of the individual harmonics by a continuous curve.
+Any error resulting from this should be greatest where the
+number of discontinuous harmonies is the least.
+Table XI
+and Fig. 11 however, show that the agreement of the gradient
+of the 60,000 cycle traveling wave with equation (27), is good
+even at 1 = 30 km., where only two significant harmonics are
+left, the fundamental and the third harmonic.
+
+===== PAGE 52 =====
+242
+STEINMETZ: GENERAL EQUAT'IONS
+[Feb. 20
+Thus the method of deriving an equation for G by integration
+is justified.
+Unsatisfactory however, is the agreement of equation (27)
+with the values of the gradient of the quarter wave oscillation,
+taken from Table VII.
+These values lay on a straight line in
+TABLE XI.
+CALCULATION OF WAVE FRONT.
+Copper Wire No. 00 B. & S. gage, 30 ft. above Ground.
+Dist.
+Gradient, volts per meter at E = 60,000 V.
+km.
+G:
+/G:
+/Go*
+A%
+Impulse, fo = 0:
+(Table X)
+.03
+1860
+3.269
+3.317
++ .048
++ 11.7
+.3
+684
+2.835
+2.817
+-
+.018
+-
+4.3
+3.
+186
+2.269
+2.317
++ .048
++ 11.7
+30
+63.5
+1.803
+1.817
++ .014
++
+3.3
+300
+11.9
+1.075
+1.317
+(+ .242)
+Traveling Wave, fo = 60,000:
+(Table IX)
+.3
+690
+2.839
+2.817
+-
+.022
+-
+5.2
+.6
+470
+2.672
+2.667
+-
+.005
+-
+1.1
+1.5
+295
+2.470
+2.468
+-
+.002
+-
+0.5
+3
+205
+2.312
+2.317
++ .005
++
+1.1
+6
+140
+2.146
+2.167
++ .021
++
+5.0
+12
+100
+2.000
+2.016
++ .016
++
+3.7
+30
+65
+1.813
+1.817
++ .004
++
+0.9
+108
+40
+1.602
+1.539
+(-
+.063)
+Quarterwave,.fso
+750:
+(Table VII)
+.01
+5500
+3.740
+3.556
+-
+.184
+.1725
+1290
+3.111
+2.938
+-
+.173
+.345
+967
+2.985
+2.787
+-
+.198
+.69
+630
+2.799
+2.637
+-
+.162
+3.45
+280
+2.447
+2.287
+-
+.160
+6.9
+205t
+2.312
+2. 137
+-
+.175
+27.6
+98
+1.991
+1.836
+-
+.155
+69
+58
+1.763
+1.637
+(-
+.125)
+690
+12
+1.079
+1.137
+(+ .058)
+6900
+1.2
+.079
+.637
+(+ .558)
+Same, 18 ins. = 45.5 cm. between conductors.
+.69
+3240
+3.510
+3.311
+-
+.199
+6.9
+960
+2.982
+2.811
+-
+.171
+69
+234
+2.369
+2.311
+(-
+.058)
+*Calculated by equation (28).
+t131 to 293
+Fig. 11, given as dotted line, showing proportionality with the
+square root of the distance, but there is a constant error, and
+the gradients given in Table VII are about 50 per cent greater
+than those given by equation (27).
+The cause of the discrepancy probably is in the method used
+in calculating the gradients of the quarter wave oscillation
+
+===== PAGE 53 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+243
+given in Table VII.
+Due to the impossibility of calculating
+individually thousands of harmonics, the number of harmonics
+in successive intervals of frequency, has been multiplied with
+the average attenuation E-uI in this frequency range, and as
+the average has been used the mean value of the c-Ut for the
+two extremes of the frequency range.
+However,
+E-ut drops
+exponentially and with great rapidity, so that the true average
+value is much lower than the average of maximum and mini-
+mum.
+Thus for instance in the range from 5 X 105 to 10 X 105
+cycles, containing 334 harmonics, E-t for f = 5 X 105 (at
+t
+- 23 X 10-6 seconds), is 1.22 X 10-3 and for f = 10 X 105, it
+is 181 X 10-3, giving an average of 91.1 X 10-3.
+However, for
+3.6
+-
+9
+-
+9
+3.4
+2.6
+ji--
+2.2--
+-.-
+-
+-
+1.4
+-8.6
+-9.0
+-9.4
+-98
+0 0,2
+0.6
+1.0
+1.4
+1.8
+2.2
+2.6
+FIG. 11-WAVE FRONT GRADIENT
+f = 7.5 X 105,
+u-.?
+is 22.5 X 1O-3, thus less than a quarter of
+the average.
+To check this, one value, at t = 23 X 10-6 or 1 = 6.9 km.,
+has been re-calculated by using not the average, but the maxi-
+mum and the minimum of E-'z1 in each interval, and the two
+gradients derived therefrom: G = 293 and 131, are marked
+with dotted circles in Fig. 11.
+As seen, the use of the minimum
+value of E-u1 agrees nearer with equation (27), as was to be
+expected.
+It appears probable that the equation
+(27)
+gives more
+reliable values of wave front gradient, within the range of its
+applicability, than the method of calculation used in Table VII.
+and as it is much simpler, it is preferable.
+
+===== PAGE 54 =====
+244
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+As seen from Table XI and Fig. 11, the parabolic law of wave
+front flattening, given by equations (27) and (28), holds good
+up to about 30 km. distance of wave travel, and with fair
+approximation even to 100 km.
+In the range beyond this-
+which is of lesser importance, as the flattening of the wave
+front has greatly reduced its danger at these distances-the
+values of the gradient G decrease with increasing rapidity, with
+distance and time, due to the medium high harmonics showing
+in the attenuation.
+At great distances from the origin of the rectangular wave,
+when the very high harmonics have practically died out and
+the wave attenuation is determined by the medium-frequency
+harmonics, the second term of u in equation (15) becomes
+negligible, and u can be approximated by:
+u= ml vf
+(37)
+The integral in equation (12) then becomes
+00
+F-
+>-ml vfdf
+(38)
+0
+Substituting:
+mIt Vf= x
+gives
+df =
+2 x d x
+inm2 t2
+and
+X,
+F -
+2
+x C--: d x
+ml2 t2
+f~
+d
+It is however:
+0
+00
+x
+-xdx=d 1
+(39)
+thus
+0
+_2
+F =
+m2t2
+(40)
+and
+4 E
+G=
+S
+(41)
+
+===== PAGE 55 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+245
+or:
+G =
+44S
+(42)
+Substituting (16) gives
+G=
+2
+2
+~
+~
+~~~E
+(43)
+That is, at great distances (or considerable time) from the
+origin, the flattening of the wave front approaches inverse
+proportionality with the square of the distance (or time) of the
+wave travel.
+However, this range is of little importance.
+APPENDIX A
+Unequal Current Distribution in Conductor
+It is simple to determine from conductor size and material,
+and the frequency, whether the unequal current distribution
+in the conductor is sufficient to appreciably effect the ohmic
+resistance.'
+Also, if conductor size and frequency are so high
+that the current penetrates only a thin surface layer of the
+conductor, the calculation of its effective resistance leads to
+simple expressions.
+Only in the intermediary range, where the
+current distribution throughout the conductor is already very
+uneven, but appreciable current still penetrates to the center
+of the conductor, the numerical calculation becomes laborious,
+involving a slowly convergent series or special functions of
+which tables are rarely available.
+However, this range is
+relatively narrow and can be approximated between the two
+extremes,
+with
+sufficient accuracy
+for
+the
+calculation
+of
+transients, while for low-frequency power transmission, con-
+ductors of a size reaching into this range would not be used,
+being uneconomical in conductor material.
+As the case of such high frequencies or large conductor sizes,
+that the current penetrates only a surface layer, has been
+frequently investigated,2 the derivation of the equations is
+unnecessary here.
+The most satisfactory way of representing
+1. "Theory and Calculation
+of Alternating-Current Phenomena, 5th
+edition, page 144.
+2. See for instance "Theory and Calculation of TransientPhenomena,"
+Section III, Chapter VII.
+
+===== PAGE 56 =====
+246
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+it is to calculate the "depth of penetration" of the current into
+the conductor.
+The actual or effective resistance of the con-
+ductor then is given by circumference of the conductor, times
+the depth of penetration.
+This method, of calculating the
+depth of penetration, has the advantage that it applies to all
+sizes and shapes of conductors,
+solid round conductors or
+hollow tubes, flat ribbon and even such complex shapes
+as
+the railway rail, provided only that the depth of penetration
+is materially less than the depth of the conductor material.
+The depth of the penetration into the conductor is
+104
+r V0 4 y
+f
+(1)
+5030
+where
+y
+=
+electrical conductivity of the conductor,
+A = magnetic permeability of the conductor,
+f = frequency.
+The effective resistance of the conductor then is, per unit
+length,
+1
+r=
+X
+/ 0.4,lf 10-4
+11
+oY
+(2)
+w e
+503011
+ohms per cm.
+where
+11 = circumference of conductor (actual, that is, following
+all indentations, etc.)
+As the true ohmic resistance of the conductor is,
+1
+ro =
+ohms per cm.
+(3)
+where
+s = conductor section,
+
+===== PAGE 57 =====
+1919]
+OF THE ELECTRIC CIRCUIIT
+247
+the "resistance ratio", or ratio of the effective resistance of
+unequal current distribution, to the true ohmic resistance, is:
+r
+_
+s ir v0. 4 yf
+ro
+(4)
+s
+5030 1
+/ Y8
+The
+internal
+reactance
+of unequal
+current
+distribution
+equals the resistance, in the range considered:
+x1- r1
+(5)
+while at low frequency, where the current distribution is still
+uniform, the internal reactance is, per unit length of conductor:
+x10 = 7rf y 10-9 henry per cm.
+= 7rf 10-9 for air (,
+=
+1)
+(6)
+The external inductance of the conductor, that is, the induc-
+tance due to the magnetic field outside of the conductor,
+calculated in the usual manner, that is neglecting the finite
+velocity of the magnetic field, is, per unit length of conductor,
+Lo= 2log T-
+10-9henryper cm.
+(7)
+where
+I
+= radius of conductor
+1' = distance of return conductor
+or, for conductors of other shape, approximately:
+Lo =
+2 log
+2 7r 1
+10-I henry per cm.
+(8)
+12
+where:
+12
+=
+shortest circumference of conductor (that is, not includ-
+ing indentations etc.)
+Thus, the external reactance, per unit length of conductor is:
+xo = 4 7rflog
+1i
+1o-
+(9)
+= 4 7rf log 21rf
+10- 9 ohms per cm.
+(10)
+12
+
+===== PAGE 58 =====
+248
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+As the unequal current distribution in the conductor, and
+the increase of effective resistance and decrease of internal
+reactance caused by it, are the result of the magnetic field of
+the current inside of the conductor, it follows that stranding
+the conductor does not eliminate this effect, unless the strand-
+ing is done in such manner that every strand has the same
+distance from the conductor surface, that is, interior strands
+interchange periodically with exterior ones and'inversely, and
+the individual strands are insulated from each other.
+Otherwise the stranding has an indirect effect only, in reduc-
+ing y and
+, in equation (1) etc.
+Thus, if in the stranded conductor the part p is filled by the
+conductor
+material
+of conductivity
+y0,-the
+rest
+(1 - p)
+being the space between the strands-, then the average
+conductivity of the conductor is
+-y= P Yo
+In conductors of magnetic material stranding may materially
+reduce the effective resistance, as the spaces between the
+strands would greatly reduce the resultant permeability of the
+conductor, and thereby greatly increase the penetration of the
+current into the conductor.
+APPENDIX B
+Radiation Resistance, Inductance and Capacity
+Consider a finite section of an infinitely long conductor of
+radius Ir, with the return conductor at distance 1', and assume
+that 1' is small compared with a quarter wave length of the
+electric field of the conductor.
+Let i = I @os (6- a)
+current in the conductor
+e = E cos (6-
+) = voltage of the conductor
+r
+(1)
+At a distance
+1 from the conductor, the magnetic field
+intensity is 0. 2/1 times the current, and lags behind the current
+by the time required for the magnetic field to travel the dis-
+tance 1, that is, by the angle a 1, where:
+2 7rf
+a =
+f
+(2)
+f = frequency,
+S
+=
+3 X 101 = velocity of radiation
+(3)
+
+===== PAGE 59 =====
+19191
+OF THE ELECTRIC CIRCUIT
+249
+The magnetic field intensity thus is given by:
+0.2lIcos (0-o-a-
+)
+(4)
+The magnetic component of field, per unit length of con-
+ductor (cm.), thus is:
+b={Hdl
+1r
+= 0.21fj
+cos(0-a--al)
+dl
+tr
+Ir~~~~~~I
+=0.21 { cos ('- a) {
+d
+Ir
+It is however, for values of 1' up to about one-half of a
+quarter wave length of the electric field, with sufficient approxi-
+mation*:
+sinlaI
+dl= alt
+(6)
+_______
+lo
+1
+(7)
+Thus
+-
+0 21 { log
+cos (0- a)
++al'sin(0- a)
+}
+(8)
+Similar considerations apply to the dielectric field of the
+conductor, in relation to its voltage.
+*See "Theory and Calculation
+of Transient Electric Phenomena,"
+Section III, Chapter VIII: "Velocity of Propagation of Electric Field."
+
+===== PAGE 60 =====
+250
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+Thus, the two components of the electric field, the magnetic
+field and the dielectric field, are not in phase with current and
+voltage, respectively, but lag behind, due to the appearance of
+the sine component, resulting from the finite velocity of the
+electric field.
+The magnetic field ¢ induces a voltage in quadrature with
+the field 4:
+e'l27rf
+10-8
+dO6
+=4rfI{ log
+sin (d-ca) + al'cos (O- a)} 10-1
+(9)
+where the 10-8 reduces from absolute units to volts.
+The reactive or sine component of this voltage e' is the
+e.m.f. of self induction, and gives rise to the reactance,
+ii
+x = 41rflog
+(
+10-9ohms
+(10)
+and the inductance,
+x
+L
+2 rf
+= 2log
+l10-9henrys
+(11)
+1r
+The cosine component of E' is in phase with the current,
+thus an energy voltage, and gives rise to an effective resistance,
+the magnetic radiation resistance:
+r = 4 7r f al' 10-9 ohms.
+(12)
+Substituting (2) into (12) gives:
+r = 82rf 1
+10-9 ohms.
+(13)
+That is, the radiation resistance is proportional to the dis-
+tance from the return conductor, and to the square of the
+frequency, but is independent of size, shape or material of the
+conductor.
+From (11) and (13) follow as the attenuation constant of
+magnetic radiation,
+r
+47rf2l'
+2Slog 2L
+(14)
+
+===== PAGE 61 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+251
+At a distance 1 from the conductor, the dielectric or electro-
+static field lags behind the voltage (1) by angle a 1, thus, per
+unit length of conductor, is given by,
+{= 'ii'cos(-
+al)
+(15)
+The voltage gradient is 2/1 times the dielectric flux, and the
+total voltage from conductor to return conductor thus is given
+by,
+e
+{ij24+ d
+or:
+Ir
+Ecos (6-
+=2P
+tcos (/Aal)
+dl
+tr
+cos(6-~
+co
+a
+___
+2
+rv*
+cosCal dl
++ sin (O _3) J
+sina
+dl
+}
+(16)
+1-r
+hence, by (6) and (7);
+E cos (6- /3)= 2'i
+{ log
+cos(6-
+/3)
++ al'sin (6-
+3)
+}
+(17)
+The dielectric field gives rise to a current in quadrature with
+the field, the capacity or charging current of the conductor:
+I= 2irfJ
+(18)
+and, substituting (18) into (17), gives,
+E cos(-_3)=
+If
+{ log
+sin(d-
+/3)
++ al'cos (6-
+,B)
+}
+(19)
+where the change of the trigonometric functions represents the
+quadrature relation.
+
+===== PAGE 62 =====
+252
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+The reactive or sine component of this current I' gives rise
+to the capacity reactance,
+S2 log
+Xc
+S
+l
+r
+10-9 ohms
+(20)
+f
+and the capacity:
+C =
+1
+2 7rfx,
+= 1O0
+1'
+farads
+(21)
+2 S2 log
+1
+ir
+where the factor S2 reduces from electrostatic to electromag-
+netic units.
+The cosine component of I' is in phase with the voltage, thus
+an energy current, and gives rise to an effective resistance, the
+dielectric radiation resistance.
+al'1S2
+rc=
+7rf
+10-I9ohms,
+(22)
+or, by (2):
+r,= 21' S10-9 ohms
+(23)
+If the specific capacity of the medium differs from unity, and
+is K, then K enters as factor in the numerator of C and in the
+denominator of xc and r,
+From (21) and (23) follow as the attenuation. constant of
+dielectric radiation:
+2 =29Cg
+-
+rf r,
+27r2f2 1
+(24)
+S2 log
+= U1
+that is, the dielectric and the magnetic attenuation constant of
+magnetic radiation are equal; in other words, by electric radia-
+tion, the magnetic and the dielectric energy decay at the same
+rate, and their ratio thus remains constant.
+It is interesting to note, that the expressions of inductance
+L and capacity C, (11) and (21), are the same as the values of
+
+===== PAGE 63 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+253
+L and C, calculated without considering the finite velocity of
+the electric field, that is, are the "low-frequency values" of
+external inductance and capacity.
+Thus:
+As long as the distance of the return conductor is small com-
+pared with a quarter wave length, electric radiation due to the
+finite velocity of the electric field, does not affect or change
+the values of external inductance L and of capacity C, but
+causes an energy dissipation by electromagnetic and by dielec-
+tric or electrostatic radiation, which is represented by effec-
+tive resistances.
+The electromagnetic radiation resistance is a
+series resistance, proportional to the square of the frequency;
+the electrostatic resistance
+is a shunted resistance in series
+with the capacity.
+It is independent of the frequency and the
+power consumed by either resistance thus is proportional to
+the square of the frequency.
+Equations (6) and (7), and thus the equations (10), (11),
+(13);
+(20), (21), (23), of the circuit constants x, L, r;
+xc, C,
+r,, apply only as long as the distance 1' of the return conductor
+is small compared with a quarter wave length, and with
+sufficient approximation up to 1'- one half of a quarter
+wave length.
+With the return conductor at 6 ft. = 182 cm., the minimum
+wave length would be 8 X 182 = 1456 cm., and the maximum
+frequency thus:
+3 x 1010
+fo =
+1456
+= 20 million cycles, approx.
+With the ground as return, and the conductor 30 ft. above
+ground, thus the image conductor as equivalent return con-
+ductor at 2 X 30
+ft. = 1820 cm.
+distance, the maximum
+frequency is:
+3 x 1010
+fo =
+8 ><1820 - 2 million cycles, approx.
+As seen, the approximations (6) and (7) apply to practically
+all industrially important transients, with rare exceptions.
+For such high frequencies however, where the distance of
+the return conductor, 1, approaches or exceeds a quarter wave
+length, or in the case of a conductor without return conductor
+(I' = aD), such as is approximated by the wireless antenna,' or
+by a lightning discharge to ground, the integrals (6) and (7)
+have to be evaluated.
+
+===== PAGE 64 =====
+254
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+They define new functions:*
+r'sin a 1
+J
+1
+t dl= colal-colal'
+(25)
+lr
+cosal dl= silai,-silal'
+(26)
+and, since 1r is always small compared with a quarter wave
+length, it is:
+cola Ir=
+2
+(27)
+2
+sil a r = log
+-0 .5772
+(28)
+Substituting (25), (26), (27) and (28) instead of (6) and (7),
+into the previous discussion, gives the final complete equations:
+(10)
+x= 4wf { log a1
+- 0.5772 - silal'
+} 109
+= 4 rf {log 2Sf
+-0.5772
+sil
+2
+1l
+}
+o0-90hms
+(29)
+(11)
+L
+2 { log
+1
+--0.5772 - silal'
+} 10-9
+S
+= 2
+{ log 2
+-fl- 0.5772
+-sil 2wf
+'
+10- 9 henrys
+(30)
+(13)
+r
+4 rf {
+_-col a l'
+} 10-
+= 4rf
+s--col 2 rf
+} 10-9ohms
+(31)
+*Tables of the numerical values of these functions are given in the
+Appendix to the later editions of "Theory and Calculation of Transient
+Electric Phenomena."
+
+===== PAGE 65 =====
+19191
+OF THE ELECTRIC CIRCUIT
+255
+(20)
+xC.
+log
+1
+-0. 5772-silal'
+} 1O-
+wrf
+1.
+air
+-
+f {1og2f
+0.6772
+-sil 2 -7f 1
+} 10-9 ohms
+(32)
+(21)
+C
+1
+10-s
+2S2
+log a
+-0.5772 - silal'
+}
+10-9
+2S2 {log 2
+- 0.5772 - sil
+f
+}
+farads (33)
+(23)
+rc
+{
+T
+- colal
+} 109
+__
+2
+wf 1'
+-r%
+{
+2
+-col
+10- ohms
+(34)
+As seen from the tables of col x, the radiation resistances,
+and thus the energy dissipation by magnetic and dielectric'
+radiation, increase with increasing distance of the return con-
+ductor, reach a maximum when the distance of the return
+conductor is one-half wave length, and then decrease again.
+The maximum radiation resistances, at 1'- one-half wave
+length, are:
+r= 7.41 rflO-9
+- 23.27 f 10- 9 ohms.
+(35)
+1.852 S2 lo-,
+0.531
+1012 ohms.
+(36)
+f
+Substituting 1' =
+into equations (29) to (34) gives the
+radiation constants of the conductor without return conductor.
+1 =
+co gives:
+silat'- 0
+colal'
+(37)
+
+===== PAGE 66 =====
+256
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+thus:
+(29)
+x = 4 7rf { log 2 rfl
+- 0.5772
+} 10-9ohms
+(38)
+(30)
+L= 2
+{ log 2 Sf1
+-0.5772
+10-9henrys
+(39)
+(31)
+r = 2 ir2f 10-9 ohms
+(40)
+(32)
+xc
+'r
+{ log 25f1
+- 0.5772 } 10-Iohms.
+(41)
+(33)
+C = 21S2
+l
+f0-l
+farads
+(42)
+2S2
+lo
+-057
+2 r f Ilr}
+(34) r=
+2f 10-9 ohms
+(43)
+APPENDIX C
+Equations of Electrical Constants
+Let:
+1 = length of conductor, cm.
+Ir
+radius of conductor, cm.
+11 = circumference of conductor, cm.
+12 = shortest circumference of conductor, cm.
+I' = distance of return conductor
+f = frequency, cycles per second
+y= electrical conductivity, mhos per cm3.
+,u-magnetic permeability
+S = 3 X 101°= velocity of radiation in empty space,
+it is then, log denoting the natural logarithm:
+resistances:
+true ohmic resistance (thermal):
+1
+ro
+ohms.
+effective resistance of unequal current distribution (thermal):
+l=
+rlVO0.4yf' 10-4ohms
+11
+o
+effective magnetic radiation resistance:
+(a)
+return conductor at distance 1':
+8 7r2f2 1r I
+r3 = 8 y -f
+j
+10-1 ohms
+S
+
+===== PAGE 67 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+257
+at extremely high frequencies:
+4=
+fl {
+2
+col
+-f
+10-9 ohms.
+(b)
+conductor without return conductor:
+r2
+2 7r-2f110-9ohms.
+effective dielectric radiation (shunted) resistance:'
+(a)
+return conductor at distance 1':
+2211S 10-9ohms
+at extremely high frequencies:
+rc
+7rf~;l
+{
+2
+-col 2
+f
+} ii-9ohms
+(b)
+conductor without return conductor:
+rc=
+lO
+10-9ohms
+reactances:
+low-frequency internal reactance:
+Xl
+= 7r f 1j 10-9 ohms.
+internal reactance of unequal current distribution:
+xl=
+]l
+0.4Mf
+10-4ohms,= ri
+external reactance:
+(a)
+return conductor at distance 1':
+xO = 4rfllog
+10-
+4wrfllog 27rl
+10-9ohms
+r
+~~~~~~~~12
+at extremely high frequencies:
+4{=
+42
+7r f 1
+log
+f
+s
+0. 5772 - sil 2f t
+} 109
+ohms
+*As shunted resistance and reactance,
+rc and xc are inverse propor-
+tional to the length of the conductor 1 that is, the longer the conductor,
+the more current is shunted across, and the lower therefor are
+rc and xc.
+For this reason, the shunt constants usually are given as conductance g
+and suseeptance b.
+In the present case however, r and x give simpler
+expressions.
+
+===== PAGE 68 =====
+258
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+(b)
+conductor without return conductor:
+x2 = 4rfl{ log2
+-0.5772
+} 10-9ohms
+shunted capacity reactance:
+(a)
+return conductor at distance 1':
+SI2log
+If
+S2 log 2l
+1
+xc-
+r
+lg
+10-9
+12
+10-9ohms
+=
+f 1
+rfl
+at extremely high frequencies:
+Xc =
+f
+{ log 2 rf I
+- 00. 5772 - sil
+2wf'
+}10-9
+ohms.
+(b)
+conductor without return conductor:
+xc=
+f
+log 21, - 0.5772
+10-9ohms
+inductances:
+low frequency internal inductance:
+L lo
+-
+10-9 henrys
+2
+internal inductance of unequal current distribution:
+Li
+V
+10-4 henrys
+external inductance:
+(a)
+return conductor at distance 1':
+Lo= 21log
+10-
+9
+10 =92Zlog 2t
+10-9henrys.
+at extremely high frequencies:
+L4{=
+21
+log2
+fI -0.5772-sil 2wf'l'
+} 10-9
+(b)
+conductor without return conductor:
+henrys.
+L2 = 21{ log
+s
+- 0.5772
+10-I9henrys.
+capacity:
+(a)
+return conductor at distance 1':
+Co =1'
+farads
+2 S2 log
+7
+
+===== PAGE 69 =====
+1919]
+OF THE ELECTRIC CIRCUIT
+259
+at extremely high frequencies:
+1O,
+2 S2 { log2 s
+- 0 5772 -sil
+2
+f 1'
+} farads
+(b)
+conductor without return conductor:
+10 9
+C21
+farads
+2 S2
+llog
+- 0.5772
+Herefrom then follow the Circuit Constants:
+At Low Frequencies:
+(Machine Frequencies up to 10O
+cycles,
+approx.)
+r
+ro
+X = X1o + xo
+L- L0o+ Lo
+C- Co
+g
+0
+At Medium Frequencies: (103 to 105 cycles, approx.)
+r
+ri
+X = x + xo
+L= L1+Lo
+C= Co
+g.=
+0
+At High Frequencies:
+(105 to 107 cycles, approx.)
+r = ri + r3 (with return conductor)
+= ri + r2 (without return conductor)
+x
+x1 + xo (with return conductor)
+xl + x2 (without return conductor)
+L = L1 + Lo (with return conductor)
+= L1 + L2 (without return conductor)
+C = CO (with return conductor)
+= C2 (without return conductor)
+(approximately, or represented by xc and r,)
+g
+represented by r, and x :
+9
+r,;;-*b=
+X,
+=2wfC
+r2c + x2
+;
+r2c + x2=,
+At Extremely High Frequencies: (above 1O7 cycles, approx.)
+r = r1 + r4 (with return conducter)
+= r 1 + r2 (without return conductor)
+x = xl + x4 (with return conductor)
+= X1 + x2 (without return conductor)
+
+===== PAGE 70 =====
+260
+STEINMETZ: GENERAL EQUATIONS
+[Feb. 20
+C and g represented by r, and xc, thus:
+r,2 + XG2
+c
+~~xc
+2 7rf (r 2 + x 2)
+From these follow the Derived Circuit Constants:
+Magnetic Attenuation:
+r
+U1
+2L
+Dielectric Attenuation:
+Usually zero at low and medium frequencies,
+g
+-
+-rfr
+U2 =
+-
+C
+x
+2C~~X
+at high and very high frequencies.
+Attenuation Constant:
+-U
+=
+l+ U2= 2
+L
++
+)
+Series Power Factor:
+r
+cos
+o = V r2 + x2
+Shunt Power Factor:
+Zero at low and medium frequencies,
+Cos Coe =
+-Vr¢2 +X 2
+at high and very high frequencies.
+Duration of Oscillation:1
+to.=
+1seconds
+No
+cycles
+U
+*Under "Duration" of a transient is understood the time (or the number
+of cycles), which the transient would last, that is, the time in which it
+would expend its energy, if continuing at its initial intensity.
+With a
+simple exponential transient, this is the time during which it decreases
+1
+to
+or 36.8 per cent of its initial value.
+It decreases to one-tenth of
+its initial value in 2.3 times this time.
